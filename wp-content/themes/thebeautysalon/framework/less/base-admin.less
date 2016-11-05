@@ -1,0 +1,555 @@
+/**
+ * Base Admin Style Rules
+ *
+ * This file defines the basis of all Red Factory admin areas. It contains
+ * mixins and variables that other less files use. It also includes Formalize
+ * and CSS Grid which is used throughout the front and backend. 
+ *
+ */
+
+
+@color-primary: #21759B;
+
+.postbox#rf-custom-fields {
+	background:none;
+	border:0px;
+	padding:0px;
+	.handlediv, .hndle {
+		display:none;
+	}
+	.inside {
+		padding:0px;
+	}
+}
+
+.rf_wrapper {
+	
+	.rf_admin {
+		font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
+	}
+
+	/***********************************/
+	/*              Messages           */
+	/***********************************/	
+	
+	.message {
+		margin:0 0 22px 0;
+		padding:6px 22px;
+		font-size:0.9em;
+		.shadowed-box;
+		h5 {
+			font-size:14ox;
+			font-weight:700;
+			margin:0px;
+		}
+		&.alert {
+			background: #FFD200;
+			color: #333;
+			text-shadow: 1px 1px #FFD200 + #111;
+			border:1px solid #FFD200 - #222;
+			&.has-gradient {
+				.gradient(#FFD200 + #151515, #FFD200 - #151515);
+			}
+		}
+		&.success {
+			background: #64e94d;
+			color: #333;
+			text-shadow: 1px 1px #64e94d + #111;
+			border:1px solid #64e94d - #222;
+			&.has-gradient {
+				.gradient(#64e94d + #151515, #FFD200 - #64e94d);
+			}
+		}
+		&.error {
+			background: #d2341a;
+			color: #fff;
+			text-shadow: -1px -1px #d2341a - #222;
+			border:1px solid #d2341a - #222;
+			&.has-gradient {
+				.gradient(#d2341a + #151515, #d2341a - #151515);
+			}
+		}
+		&.text-center {
+			text-align:center;
+		}
+		&.text-right{
+			text-align:right;
+		}
+	}
+	
+	
+	
+	/***********************************/
+	/*              Buttons            */
+	/***********************************/	
+	
+	.button, a.button {
+		.gradient(#f9f9f9, #e9e9e9);
+		.radius(2px);
+		padding:11px 22px;
+		color:#717171;
+		font-weight:700;
+		text-shadow:1px 1px #fdfdfd;
+		border:1px solid #d2d2d2;
+		.box_shadow(0px, 1px, 0px, 0px, rgba(0,0,0,0.15));
+		&:hover {
+			.gradient(#f6f6f6, #dcdcdc);	
+			border:0px;
+			color:#717171;
+			border:1px solid #d2d2d2;
+		}
+		&:active {
+			.gradient_3stop(#6a6a6a, #6f6f6f, #616161, 33%);	
+			color:#fff;
+			text-shadow:1px 1px #444;
+			border:1px solid #5b5b5b;
+		}
+	}
+	
+	.button.primary {
+		display:block;
+		float:left;
+		.gradient(@color-primary + #151515, @color-primary - #151515);
+		color:#fff;
+		text-shadow:-1px -1px @color-primary - #222;
+		border:1px solid @color-primary - #222;
+		.box_shadow(0px, 1px, 0px, 0px, @color-primary - #222 );
+		&:hover {
+			.gradient(@color-primary + #111111, @color-primary - #191919);
+			border:1px solid @color-primary - #222;
+			color:#fff;
+		}
+		&:active {
+			.gradient_3stop(@color-primary - #333, @color-primary - #222, @color-primary - #363636, 33%);
+			text-shadow:1px 1px @color-primary - #555;
+		}	
+		&.disabled.loading {
+			.gradient-image(#f9f9f9, #e9e9e9, '../images/loading.gif', no-repeat, 11px center );
+			color:#717171;
+			text-shadow:1px 1px #fdfdfd;
+			border:1px solid #d2d2d2;
+			.box_shadow(0px, 1px, 0px, 0px, rgba(0,0,0,0.15));		
+			padding-left:65px;
+		}
+	}
+	
+	
+	textarea,
+	input,
+	input[type="date"],
+	input[type="datetime"],
+	input[type="datetime-local"],
+	input[type="email"],
+	input[type="month"],
+	input[type="number"],
+	input[type="password"],
+	input[type="search"],
+	input[type="tel"],
+	input[type="text"],
+	input[type="time"],
+	input[type="url"],
+	input[type="week"] {
+		height:auto;
+		background-color:#eee;
+		border:1px solid #c9c9c9;
+		.box_shadow_inset_outset(0px, 1px, 0px, 1px, #e5e5e5, 0px, 1px, 0px, 0px, #fff);
+		.radius(2px);
+		color:#787878;
+		padding:11px;
+		text-shadow:1px 1px #fff;
+	}
+	 
+	
+	select {
+		@position: 98% center;
+		.gradient-image(#f9f9f9, #e9e9e9, '../images/select_arrow.gif', no-repeat, @position ) ;
+		.radius(2px);
+		color:#787878;
+		text-shadow:1px 1px #fdfdfd;
+		border:1px solid #d2d2d2;
+		.box_shadow(0px, 1px, 0px, 0px, rgba(0,0,0,0.15));
+		height:auto;
+		padding:11px;
+		&:hover {
+		.gradient-image(#f6f6f6, #dcdcdc, '../images/select_arrow.gif', no-repeat, @position);
+			border:0px;
+			color:#717171;
+			border:1px solid #d2d2d2;
+		}
+	}
+	
+	div.checkbox {
+		background: url('../images/checkbox-empty.png') no-repeat left top;
+		padding:0 0 0 22px;
+		display:block;
+		min-height:18px;
+		margin:0 0 11px 0;
+		color:#787878;
+		cursor:pointer;
+		input {
+			position:absolute;
+			left:-9999px;
+		}
+		&.status-on {
+			background: url('../images/checkbox-full.png') no-repeat left top;	
+		}
+		&.status-off {
+			background: url('../images/checkbox-empty.png') no-repeat left top;	
+		}
+	}
+	
+	
+	div.radio {
+		background: url('../images/radio-empty.png') no-repeat left top;
+		padding:0 0 0 22px;
+		margin:0 0 11px 0;
+		display:block;
+		min-height:18px;
+		color:#787878;
+		cursor:pointer;
+		input {
+			position:absolute;
+			left:-9999px;
+		}
+		&.status-on {
+			background: url('../images/radio-full.png') no-repeat left top;	
+		}
+		&.status-off {
+			background: url('../images/radio-empty.png') no-repeat left top;	
+		}
+	}
+	
+	
+	
+
+	
+	/***********************************/
+	/*              Controls           */
+	/***********************************/
+	
+	.menu {
+		margin:22px 0 0px 0;
+		li {
+			display:block;
+			float:left;
+			a.button {
+				.radius(0px);
+				border-left:0px;
+				border-bottom:0px;
+				float:left;
+				.box_shadow(0px, 0px, 0px, 0px, red);
+				&:hover {
+					.box_shadow(0px, 0px, 0px, 0px, red);
+					border-left:0px;
+					border-bottom:0px;			
+				}
+				&:active {
+					.box_shadow(0px, 0px, 0px, 0px, red);
+					border-left:0px;
+					border-bottom:0px;				
+				}
+				&.active {
+					.gradient(#e9e9e9, #f9f9f9);
+					&:active {
+						border-top:1px solid #d2d2d2;
+						border-right:1px solid #d2d2d2;
+						text-shadow:1px 1px #fdfdfd;				
+						color:#717171;
+					}
+				}
+			}
+			&:first-child a.button{
+				border-left: 1px solid #d2d2d2
+			}
+		}
+	}
+
+
+	
+	.rf_controls {	
+		text-shadow:1px 1px #fff;
+		.sixcol{
+			position:relative;
+		}	
+		.container {
+			background:#f6f6f6 url('../images/bg-cp.png');
+			padding:33px 22px;
+			border:1px solid #d5d5d5;
+			margin:0 0 44px 0;
+		}
+		h1,h2,h3 {
+			line-height:1.6em;
+		}
+		h1 {
+			color:#555;
+			font-size:1.8em;
+			font-weight:500;
+			letter-spacing:1px;
+			margin:0 0 -3px 0;
+		}
+		
+		h2 {
+			font-size:14px;
+			font-weight:700;
+			color:#646464;
+			.example {
+				font-weight:500;
+				float:right;
+			}
+		}
+		
+		.row {
+			margin:0 0 22px 0;
+		}
+		
+		.info {
+			color:#999;
+		}
+		
+		textarea {
+			height:180px;
+		}
+		input.title-save {
+			float:right;
+		}
+		input[type='submit'] {
+			.gradient(@color-primary + #151515, @color-primary - #151515);
+			color:#fff;
+			text-shadow:-1px -1px @color-primary - #222;
+			border:1px solid @color-primary - #222;
+			.box_shadow(0px, 1px, 0px, 0px, @color-primary - #222 );
+			&:hover {
+				.gradient(@color-primary + #111111, @color-primary - #191919);
+			}
+			&:active {
+				.gradient_3stop(@color-primary - #333, @color-primary - #222, @color-primary - #363636, 33%);
+				text-shadow:1px 1px @color-primary - #555;
+			}
+		}
+		
+		.swatch {
+			float:right;
+			width:10%;
+			margin-left:2%;
+			height:37px;
+			position:relative;
+			top:1px;
+			background:#fff;
+			outline:1px solid #c9c9c9;	
+		}
+		input.swatch-input {
+			width:88%;
+		}
+		.miniColors-trigger {
+			display:none;
+		}
+	
+		input.upload {
+			width:82%
+		}
+		button.upload-button {
+			height:39px;
+			width:16%;
+			margin-left:2%;
+		}
+		
+	}
+
+
+}
+
+
+/***********************************/
+/*            ASM Select           */
+/***********************************/
+
+
+.asmContainer {
+	/* container that surrounds entire asmSelect widget */
+}
+
+.asmSelect {
+	/* the newly created regular 'select' */
+	display: inline; 
+}
+
+.asmOptionDisabled {
+	/* disabled options in new select */
+	color: #999; 
+}
+
+.asmHighlight {
+	/* the highlight span */
+	padding: 0;
+	margin: 0 0 0 1em;
+}
+
+.asmList {
+	/* html list that contains selected items */
+	margin: 0.25em 0 1em 0; 
+	position: relative;
+	display: block;
+	padding-left: 0; 
+	list-style: none; 
+}
+
+.asmListItem {
+	/* li item from the html list above */
+	position: relative; 
+	margin-left: 0;
+	padding-left: 0;
+	list-style: none;
+	background: #ddd;
+	border: 1px solid #bbb; 
+	width: 100%; 
+	margin: 0 0 -1px 0; 
+	line-height: 1em;
+}
+
+.asmListItem:hover {
+	background-color: #e5e5e5;
+}
+
+.asmListItemLabel {
+	/* this is a span that surrounds the text in the item, except for the remove link */
+	padding: 5px; 
+	display: block;
+}
+
+.asmListSortable .asmListItemLabel {
+	cursor: move; 
+}
+
+.asmListItemRemove {
+	/* the remove link in each list item */
+	position: absolute;
+	right: 0; 
+	top: 0;
+	padding: 5px; 
+}
+
+
+
+/***********************************/
+/*            Colorpicker          */
+/***********************************/
+
+.miniColors-trigger {
+	height: 22px;
+	width: 22px;
+	background: url('../images/colorpicker/trigger.png') center no-repeat;
+	vertical-align: middle;
+	margin: 0 .25em;
+	display: inline-block;
+	outline: none;
+	bottom:0px;
+	right:0px;
+}
+
+.miniColors-selector {
+	position: absolute;
+	width: 175px;
+	height: 150px;
+	background: #FFF;
+	border: solid 1px #BBB;
+	-moz-box-shadow: 0 0 6px rgba(0, 0, 0, .25);
+	-webkit-box-shadow: 0 0 6px rgba(0, 0, 0, .25);
+	box-shadow: 0 0 6px rgba(0, 0, 0, .25);
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	padding: 5px;
+	z-index: 999999;
+}
+
+.miniColors-selector.black {
+	background: #000;
+	border-color: #000;
+}
+
+.miniColors-colors {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	width: 150px;
+	height: 150px;
+	background: url('../images/colorpicker/gradient.png') center no-repeat;
+	cursor: crosshair;
+}
+
+.miniColors-hues {
+	position: absolute;
+	top: 5px;
+	left: 160px;
+	width: 20px;
+	height: 150px;
+	background: url('../images/colorpicker/rainbow.png') center no-repeat;
+	cursor: crosshair;
+}
+
+.miniColors-colorPicker {
+	position: absolute;
+	width: 11px;
+	height: 11px;
+	background: url('../images/colorpicker/circle.gif') center no-repeat;
+}
+
+.miniColors-huePicker {
+	position: absolute;
+	left: -3px;
+	width: 26px;
+	height: 3px;
+	background: url('../images/colorpicker/line.gif') center no-repeat;
+}
+
+
+
+/***********************************/
+/*          Autocomplete           */
+/***********************************/
+
+.autocomplete-w1 { background:url(../images/shadow.png) no-repeat bottom right; position:absolute; top:0px; left:0px; margin:8px 0 0 6px; /* IE6 fix: */ _background:none; _margin:0; }
+.autocomplete { border:1px solid #999; background:#FFF; cursor:default; text-align:left; max-height:350px; overflow:auto; margin:-6px 6px 6px -6px; /* IE6 specific: */ _height:350px;  _margin:0; _overflow-x:hidden; }
+.autocomplete .selected { background:#F0F0F0; }
+.autocomplete div { padding:2px 5px; white-space:nowrap; }
+.autocomplete strong { font-weight:normal; color:#3399FF; }
+
+
+
+/***********************************/
+/*             Colorbox            */
+/***********************************/
+
+#colorbox, #cboxOverlay, #cboxWrapper{position:absolute; top:0; left:0; z-index:9999; overflow:hidden;}
+#cboxOverlay{position:fixed; width:100%; height:100%;}
+#cboxMiddleLeft, #cboxBottomLeft{clear:left;}
+#cboxContent{position:relative;}
+#cboxLoadedContent{overflow:auto;}
+#cboxTitle{margin:0;}
+#cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; width:100%; height:100%;}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{cursor:pointer;}
+.cboxPhoto{float:left; margin:auto; border:0; display:block;}
+.cboxIframe{width:100%; height:100%; display:block; border:0;}
+
+/* 
+    User Style:
+    Change the following styles to modify the appearance of ColorBox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+#cboxOverlay{background:#000;}
+#colorbox{}
+    #cboxContent{margin-top:20px;}
+        .cboxIframe{background:#fff;}
+        #cboxError{padding:50px; border:1px solid #ccc;}
+        #cboxLoadedContent{border:5px solid #000; background:#fff;}
+        #cboxTitle{position:absolute; top:-20px; left:0; color:#ccc;}
+        #cboxCurrent{position:absolute; top:-20px; right:0px; color:#ccc;}
+        #cboxSlideshow{position:absolute; top:-20px; right:90px; color:#fff;}
+        #cboxPrevious{position:absolute; top:50%; left:5px; margin-top:-32px; background:url(images/controls.png) no-repeat top left; width:28px; height:65px; text-indent:-9999px;}
+        #cboxPrevious:hover{background-position:bottom left;}
+        #cboxNext{position:absolute; top:50%; right:5px; margin-top:-32px; background:url(images/controls.png) no-repeat top right; width:28px; height:65px; text-indent:-9999px;}
+        #cboxNext:hover{background-position:bottom right;}
+        #cboxLoadingOverlay{background:#000;}
+        #cboxLoadingGraphic{background:url(images/loading.gif) no-repeat center center;}
+        #cboxClose{position:absolute; top:5px; right:5px; display:block; background:url(images/controls.png) no-repeat top center; width:38px; height:19px; text-indent:-9999px;}
+        #cboxClose:hover{background-position:bottom center;}

@@ -1,0 +1,593 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in function
+#: comments.php:22
+msgid "% Responses"
+msgstr ""
+
+#. Text in function
+#: content-gallery.php:14
+#: content-gallery.php:38
+#: includes/icore/widgets/widget-recentposts.php:45
+#: content-image.php:20
+#: content-image.php:42
+#: content.php:14
+#: content.php:37
+#: single.php:8
+#: content-video.php:14
+#: content-video.php:32
+msgid "0 comments"
+msgstr ""
+
+#. Text in function
+#: content-gallery.php:14
+#: content-gallery.php:38
+#: includes/icore/widgets/widget-recentposts.php:45
+#: content-image.php:20
+#: content-image.php:42
+#: content.php:14
+#: content.php:37
+#: single.php:8
+#: content-video.php:14
+#: content-video.php:32
+msgid "1 comment"
+msgstr ""
+
+#. Text in echo
+#: 404.php:6
+msgid "404"
+msgstr ""
+
+#. Text in function
+#: navigation.php:2
+msgid "<div class=\"icon-arrow-left\"></div>"
+msgstr ""
+
+#. Text in function
+#: navigation.php:3
+msgid "<div class=\"icon-arrow-right-2\"></div>"
+msgstr ""
+
+#. Text in function
+#: includes/icore/theme-taxonomies.php:1
+msgid "Add New"
+msgstr ""
+
+#. Text in function
+#: includes/icore/theme-taxonomies.php:1
+msgid "Add New Category"
+msgstr ""
+
+#. Text in function
+#: includes/icore/theme-taxonomies.php:1
+msgid "Add Portfolio"
+msgstr ""
+
+#. Text in function
+#: comments.php:88
+msgid "Add Your Comment"
+msgstr ""
+
+#. Text in echo
+#: includes/icore/widgets/widget-contact.php:65
+msgid "Address: "
+msgstr ""
+
+#. Text in function
+#: header.php:102
+msgid "All"
+msgstr ""
+
+#. Text in function
+#: includes/icore/theme-taxonomies.php:1
+msgid "All Categories"
+msgstr ""
+
+#. Text in function
+#: includes/icore/theme-taxonomies.php:1
+msgid "All Portfolios"
+msgstr ""
+
+#. Text in function
+#: includes/icore/theme-customizer.php:1
+msgid "Appearance"
+msgstr ""
+
+#. Text in echo
+#: index.php:10
+msgid "Archives"
+msgstr ""
+
+#. Text in echo
+#: page-sitemap.php:14
+msgid "Authors"
+msgstr ""
+
+#. Text in function
+#: includes/icore/theme-taxonomies.php:1
+msgid "Categories"
+msgstr ""
+
+#. Text in function
+#: index.php:10
+msgid "Category Archives: %s"
+msgstr ""
+
+#. Text in echo
+#: includes/icore/theme-filters.php:161
+msgid "Check to display on homepage"
+msgstr ""
+
+#. Text in echo
+#: includes/icore/theme-filters.php:171
+msgid "Check to display on team page"
+msgstr ""
+
+#. Text in echo
+#: includes/icore/theme-filters.php:151
+msgid "Check to mark as staff member"
+msgstr ""
+
+#. Text in echo
+#: comments.php:22
+msgid "Comments"
+msgstr ""
+
+#. Text in echo
+#: comments.php:58
+msgid "Comments are closed for this page."
+msgstr ""
+
+#. Text in function
+#: includes/icore/theme-customizer.php:1
+msgid "Custom CSS"
+msgstr ""
+
+#. Text in echo
+#: page-portfolio-1.php:66
+#: content-portfolio.php:30
+msgid "Details"
+msgstr ""
+
+#. Text in function
+#: includes/icore/theme-customizer.php:1
+msgid "Display Homepage Message"
+msgstr ""
+
+#. Text in function
+#: includes/icore/theme-customizer.php:1
+msgid "Display Homepage Slider"
+msgstr ""
+
+#. Text in function
+#: includes/icore/theme-customizer.php:1
+msgid "Display Search Bar"
+msgstr ""
+
+#. Text in echo
+#: includes/icore/theme-filters.php:157
+msgid "Display on homepage"
+msgstr ""
+
+#. Text in echo
+#: includes/icore/theme-filters.php:167
+msgid "Display on team page"
+msgstr ""
+
+#. Text in function
+#: includes/icore/theme-taxonomies.php:1
+msgid "Edit Category"
+msgstr ""
+
+#. Text in function
+#: includes/icore/theme-taxonomies.php:1
+msgid "Edit Portfolio"
+msgstr ""
+
+#. Text in function
+#: comments.php:66
+msgid "Email"
+msgstr ""
+
+#. Text in echo
+#: includes/icore/theme-filters.php:201
+msgid "Enter your Facebook url"
+msgstr ""
+
+#. Text in echo
+#: includes/icore/theme-filters.php:211
+msgid "Enter your Google + url"
+msgstr ""
+
+#. Text in echo
+#: includes/icore/theme-filters.php:191
+msgid "Enter your Twitter url"
+msgstr ""
+
+#. Text in echo
+#: includes/icore/theme-filters.php:231
+msgid "Enter your Vimeo url"
+msgstr ""
+
+#. Text in echo
+#: includes/icore/theme-filters.php:221
+msgid "Enter your YouTube url"
+msgstr ""
+
+#. Text in echo
+#: includes/icore/theme-filters.php:181
+msgid "Enter your position."
+msgstr ""
+
+#. Text in echo
+#: includes/icore/theme-filters.php:197
+msgid "Facebook"
+msgstr ""
+
+#. Text in echo
+#: includes/loop-featured-products.php:7
+msgid "Featured Products"
+msgstr ""
+
+#. Text in echo
+#: includes/icore/widgets/widget-twitter.php:73
+msgid "Follow"
+msgstr ""
+
+#. Text in echo
+#: home.php:31
+msgid "From Portfolio"
+msgstr ""
+
+#. Text in echo
+#: includes/icore/theme-filters.php:207
+msgid "Google +"
+msgstr ""
+
+#. Text in function
+#: comments.php:88
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#. Text in echo
+#: home.php:68
+msgid "Meet the Team"
+msgstr ""
+
+#. Text in function
+#: header.php:69
+msgid "Menu"
+msgstr ""
+
+#. Text in function
+#: comments.php:66
+msgid "Name"
+msgstr ""
+
+#. Text in function
+#: includes/icore/theme-taxonomies.php:1
+msgid "New Category Name"
+msgstr ""
+
+#. Text in echo
+#: includes/loop-recent-products.php:7
+msgid "New Products"
+msgstr ""
+
+#. Text in function
+#: includes/icore/theme-taxonomies.php:1
+msgid "No Portfolios found"
+msgstr ""
+
+#. Text in function
+#: includes/icore/theme-taxonomies.php:1
+msgid "No Portfolios found in Trash"
+msgstr ""
+
+#. Text in function
+#: comments.php:22
+msgid "No Responses"
+msgstr ""
+
+#. Text in echo
+#: no-results.php:2
+msgid "No Results Found"
+msgstr ""
+
+#. Text in function
+#: comments.php:22
+msgid "One Response"
+msgstr ""
+
+#. Text in function
+#: header.php:10
+msgid "Page %s"
+msgstr ""
+
+#. Text in echo
+#: page-sitemap.php:25
+msgid "Pages"
+msgstr ""
+
+#. Text in function
+#: includes/icore/theme-taxonomies.php:1
+msgid "Parent Category"
+msgstr ""
+
+#. Text in function
+#: includes/icore/theme-taxonomies.php:1
+msgid "Parent Category:"
+msgstr ""
+
+#. Text in echo
+#: includes/icore/widgets/widget-contact.php:61
+msgid "Phone: "
+msgstr ""
+
+#. Text in function
+#: includes/icore/theme-taxonomies.php:1
+msgid "Portfolio"
+msgstr ""
+
+#. Text in function
+#: includes/icore/theme-taxonomies.php:1
+msgid "Portfolios"
+msgstr ""
+
+#. Text in echo
+#: includes/icore/theme-filters.php:177
+msgid "Position"
+msgstr ""
+
+#. Text in echo
+#: content-gallery.php:14
+#: content-image.php:20
+#: content.php:14
+#: single.php:8
+#: content-video.php:14
+msgid "Posted by "
+msgstr ""
+
+#. Text in echo
+#: page-sitemap.php:38
+msgid "Posts"
+msgstr ""
+
+#. Text in function
+#: includes/icore/theme-functions.php:1
+msgid "Primary Menu"
+msgstr ""
+
+#. Text in function
+#: includes/woocommerce/woocommerce-config.php:119
+msgid "Product added"
+msgstr ""
+
+#. Text in echo
+#: includes/icore/theme-filters.php:142
+msgid "Profile Information"
+msgstr ""
+
+#. Text in echo
+#: content-gallery.php:50
+#: content-image.php:50
+#: content.php:49
+#: content-video.php:40
+msgid "Read More"
+msgstr ""
+
+#. Text in echo
+#: home.php:178
+msgid "Read more"
+msgstr ""
+
+#. Text in function
+#: includes/icore/theme-taxonomies.php:1
+msgid "Search Categories"
+msgstr ""
+
+#. Text in function
+#: includes/icore/theme-taxonomies.php:1
+msgid "Search Portfolio"
+msgstr ""
+
+#. Text in function
+#: search.php:5
+msgid "Search Results for: %s"
+msgstr ""
+
+#. Text in function
+#: includes/woocommerce/woocommerce-config.php:119
+msgid "See reviews"
+msgstr ""
+
+#. Text in function
+#: includes/icore/theme-customizer.php:1
+msgid "Select header and footer background color"
+msgstr ""
+
+#. Text in function
+#: includes/icore/theme-customizer.php:1
+msgid "Select theme accent color"
+msgstr ""
+
+#. Text in echo
+#: single.php:48
+#: page-sidebar.php:23
+#: page.php:18
+#: single-portfolio.php:22
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#. Text in echo
+#: 404.php:7
+msgid "Sorry, this page was not found. Try searching."
+msgstr ""
+
+#. Text in echo
+#: includes/icore/theme-filters.php:147
+msgid "Staff Member"
+msgstr ""
+
+#. Text in function
+#: comments.php:88
+msgid "Submit Comment"
+msgstr ""
+
+#. Text in function
+#: includes/icore/theme-taxonomies.php:1
+msgid "Tags"
+msgstr ""
+
+#. Text in echo
+#: no-results.php:3
+msgid "The page you requested could not be found. Try refining your search, or use the navigation above to locate the post."
+msgstr ""
+
+#. Text in echo
+#: comments.php:12
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#. Text in function
+#: includes/icore/theme-functions.php:1
+msgid "Top Menu"
+msgstr ""
+
+#. Text in echo
+#: comments.php:44
+msgid "Trackbacks/Pingbacks"
+msgstr ""
+
+#. Text in echo
+#: includes/icore/theme-filters.php:187
+msgid "Twitter"
+msgstr ""
+
+#. Text in function
+#: includes/icore/theme-taxonomies.php:1
+msgid "Update Category"
+msgstr ""
+
+#. Text in function
+#: includes/icore/theme-customizer.php:1
+msgid "Upload Logo"
+msgstr ""
+
+#. Text in echo
+#: page-portfolio-1.php:65
+#: content-portfolio.php:29
+msgid "View"
+msgstr ""
+
+#. Text in function
+#: includes/icore/theme-taxonomies.php:1
+msgid "View Portfolio"
+msgstr ""
+
+#. Text in echo
+#: includes/icore/theme-filters.php:227
+msgid "Vimeo"
+msgstr ""
+
+#. Text in function
+#: comments.php:66
+msgid "Website"
+msgstr ""
+
+#. Text in echo
+#: includes/icore/theme-filters.php:217
+msgid "YouTube"
+msgstr ""
+
+#. Text in function
+#: comments.php:88
+msgid "Your email address will not be published. Required fields are marked *"
+msgstr ""
+
+#. Text in echo
+#: content-gallery.php:38
+#: content-image.php:42
+#: content.php:37
+#: content-video.php:32
+msgid "by "
+msgstr ""
+
+#. Text in function
+#: content-gallery.php:14
+#: content-gallery.php:38
+#: includes/icore/widgets/widget-recentposts.php:45
+#: content-image.php:20
+#: content-image.php:42
+#: content.php:14
+#: content.php:37
+#: single.php:8
+#: content-video.php:14
+#: content-video.php:32
+msgid "comments"
+msgstr ""
+
+#. Text in echo
+#: page-team.php:53
+#: page-team-grid.php:54
+#: home.php:104
+msgid "facebook"
+msgstr ""
+
+#. Text in echo
+#: page-team.php:58
+#: page-team-grid.php:59
+#: home.php:109
+msgid "google +"
+msgstr ""
+
+#. Text in echo
+#: content-gallery.php:14
+#: content-gallery.php:38
+#: content-image.php:20
+#: content-image.php:42
+#: content.php:14
+#: content.php:37
+#: single.php:8
+#: content-video.php:14
+#: content-video.php:32
+msgid "in "
+msgstr ""
+
+#. Text in echo
+#: page-team.php:48
+#: page-team-grid.php:49
+#: home.php:99
+msgid "twitter"
+msgstr ""
+
+#. Text in echo
+#: page-team.php:68
+#: page-team-grid.php:69
+#: home.php:119
+msgid "vimeo"
+msgstr ""
+
+#. Text in echo
+#: page-team.php:42
+#: page-team-grid.php:43
+#: home.php:93
+msgid "website"
+msgstr ""
+
+#. Text in echo
+#: page-team.php:63
+#: page-team-grid.php:64
+#: home.php:114
+msgid "youtube"
+msgstr ""
+

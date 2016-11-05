@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head><link rel="stylesheet" type="text/css" href="http://www.herbsmedpharma.com/wp-content/cache/minify/000000/fY_BEoIwDER_iE7l5PfUECBO2nSaIPj3FnSk48HbJvOy2e09SLIA5kYp0V09JeBlQPWg6tWejNr1vuBDmQYsvqjLvEyU3gCaUZr-IRCykSTtLl5nyWqVOHzbxb1azWGQ9SbbqX6IkXH7vDhly3yzryIgMWIBbHXLLqO4OhQD2S9OWasoxczomKbZ9kDAhMmONiHnFw.css" media="all" />
+<link rel="stylesheet" type="text/css" href="http://www.herbsmedpharma.com/wp-content/cache/minify/000000/M9TPSC1KKtbNTU3RLS4pKk0uKS1K1U8uLtZPK8rPK0nNSwEA.css" media="all" />
+<link rel="stylesheet" type="text/css" href="http://www.herbsmedpharma.com/wp-content/cache/minify/000000/PYxRDkIhDAQvZGnQxPtAWWMUXp8tRLm9xKh_u5uZjXyFZaeGQt5tSB8GFnd2VEg_HiI_VUVbgwloNy0Lojy2UuGc3NH9I3yndTMrlobkky5pk5n1xf9wewzYDL9OMZzCOexJ7m8.css" media="all" />
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<meta name="author" content="UFO Themes" />
+
+<title>Testimonies | Herbs Med Pharma</title>
+
+<link rel="pingback" href="http://www.herbsmedpharma.com/xmlrpc.php" />
+<!--[if IE 8]>
+	<link rel="stylesheet" type="text/css" href="http://www.herbsmedpharma.com/wp-content/themes/shopster/style-ie8.css" />
+<![endif]-->
+
+<meta name='robots' content='noindex,follow' />
+<link rel="alternate" type="application/rss+xml" title="Herbs Med Pharma &raquo; Feed" href="http://www.herbsmedpharma.com/feed" />
+<link rel="alternate" type="application/rss+xml" title="Herbs Med Pharma &raquo; Comments Feed" href="http://www.herbsmedpharma.com/comments/feed" />
+<link rel="alternate" type="application/rss+xml" title="Herbs Med Pharma &raquo; Testimonies Comments Feed" href="http://www.herbsmedpharma.com/testimonies/feed" />
+
+
+
+
+<link rel='stylesheet' id='google-fonts-css'  href='http://fonts.googleapis.com/css?family=PT+Sans%3A400%2C700%2C400italic%7CHelvetica%3A400%2C700&#038;ver=4.0' type='text/css' media='all' />
+
+
+
+
+
+
+<link rel='stylesheet' id='jquery-ui-css-css'  href='https://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css?ver=4.0' type='text/css' media='all' />
+
+
+
+<script type="text/javascript" src="http://www.herbsmedpharma.com/wp-content/cache/minify/000000/lY9bDoIwEEU3RFuxbgjLhA725TxM3D0gGH-MiX-T3HNP7ng33xXo2fnjMBknGgRsxtL1juDBCUcgR2xa0gmLm_lgrUTI0LSEaPeM_62tYE0qWMur6Z3im1K0odI-5OQ41sayCj8ajgMRgemtt5dv9XH9o2G4AR2zItCVTYbRsJAGUYLNx4GwCf8AIEGQ82ZZAA.js"></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.herbsmedpharma.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.herbsmedpharma.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.0" />
+<link rel='canonical' href='http://www.herbsmedpharma.com/testimonies' />
+<link rel='shortlink' href='http://www.herbsmedpharma.com/?p=135' />
+<!-- BeginHeader --><style type="text/css">h1, h2, h3, h4, h5, h6, ul.nav li a, #cart-menu-inner a.menu-link, ul.nav li.megamenu ul li a, .summary .price, .product .price { font-family: 'PT Sans'; }body, p, textarea, input, #tagline, ul.nav li.megamenu ul li ul li a, .widget_price_filter .price_slider_amount .button, .product a h3 { font-family: 'Helvetica'; }</style><!-- EndHeader -->
+
+<!-- WooCommerce Version -->
+<meta name="generator" content="WooCommerce 2.0.20" />
+
+
+	<!-- Easy FancyBox 1.5.6 using FancyBox 1.3.6 - RavanH (http://status301.net/wordpress-plugins/easy-fancybox/) -->
+	<script type="text/javascript">
+	/* <![CDATA[ */
+	var fb_timeout = null;
+	var fb_opts = { 'overlayShow' : true, 'hideOnOverlayClick' : true, 'showCloseButton' : true, 'centerOnScroll' : true, 'enableEscapeButton' : true, 'autoScale' : true };
+	var easy_fancybox_handler = function(){
+	/* IMG */
+	var fb_IMG_select = 'a[href*=".jpg"]:not(.nofancybox), area[href*=".jpg"]:not(.nofancybox), a[href*=".jpeg"]:not(.nofancybox), area[href*=".jpeg"]:not(.nofancybox), a[href*=".png"]:not(.nofancybox), area[href*=".png"]:not(.nofancybox)';
+	jQuery(fb_IMG_select).addClass('fancybox');
+	var fb_IMG_sections = jQuery('div.gallery ');
+	fb_IMG_sections.each(function() { jQuery(this).find(fb_IMG_select).attr('rel', 'gallery-' + fb_IMG_sections.index(this)); });
+	jQuery('a.fancybox, area.fancybox, li.fancybox a:not(li.nofancybox a)').fancybox( jQuery.extend({}, fb_opts, { 'transitionIn' : 'elastic', 'easingIn' : 'easeOutBack', 'transitionOut' : 'elastic', 'easingOut' : 'easeInBack', 'opacity' : false, 'hideOnContentClick' : false, 'titleShow' : true, 'titlePosition' : 'over', 'titleFromAlt' : true, 'showNavArrows' : true, 'enableKeyboardNav' : true, 'cyclic' : false }) );
+	/* Auto-click */ 
+	jQuery('#fancybox-auto').trigger('click');
+	}
+	/* ]]> */
+	</script>
+	<style type="text/css">
+.fancybox-hidden{display:none}.rtl #fancybox-left{left:auto;right:0px}.rtl #fancybox-right{left:0px;right:auto}.rtl #fancybox-right-ico{background-position:-40px -30px}.rtl #fancybox-left-ico{background-position:-40px -60px}.rtl .fancybox-title-over{text-align:right}.rtl #fancybox-left-ico,.rtl #fancybox-right-ico{right:-9999px}.rtl #fancybox-right:hover span{right:auto;left:20px}.rtl #fancybox-left:hover span{right:20px}#fancybox-img{max-width:none;max-height:none}
+	</style>
+	<!--[if lt IE 8]>            
+		<style type="text/css">
+.fancybox-ie6 #fancybox-close{background:transparent;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.herbsmedpharma.com/wp-content/plugins/easy-fancybox/fancybox/fancy_close.png",sizingMethod="scale")}
+.fancybox-ie6 #fancybox-left-ico{background:transparent;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.herbsmedpharma.com/wp-content/plugins/easy-fancybox/fancybox/fancy_nav_left.png",sizingMethod="scale")}
+.fancybox-ie6 #fancybox-right-ico{background:transparent;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.herbsmedpharma.com/wp-content/plugins/easy-fancybox/fancybox/fancy_nav_right.png",sizingMethod="scale")}
+.fancybox-ie6 #fancybox-title-over{background:transparent;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.herbsmedpharma.com/wp-content/plugins/easy-fancybox/fancybox/fancy_title_over.png",sizingMethod="scale");zoom:1}
+.fancybox-ie6 #fancybox-title-float-left{background:transparent;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.herbsmedpharma.com/wp-content/plugins/easy-fancybox/fancybox/fancy_title_left.png",sizingMethod="scale")}
+.fancybox-ie6 #fancybox-title-float-main{background:transparent;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.herbsmedpharma.com/wp-content/plugins/easy-fancybox/fancybox/fancy_title_main.png",sizingMethod="scale")}
+.fancybox-ie6 #fancybox-title-float-right{background:transparent;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.herbsmedpharma.com/wp-content/plugins/easy-fancybox/fancybox/fancy_title_right.png",sizingMethod="scale")}
+.fancybox-ie6 #fancybox-bg-w,.fancybox-ie6 #fancybox-bg-e,.fancybox-ie6 #fancybox-left,.fancybox-ie6 #fancybox-right,#fancybox-hide-sel-frame{height:expression(this.parentNode.clientHeight+"px")}
+#fancybox-loading.fancybox-ie6{position:absolute;margin-top:0;top:expression((-20+(document.documentElement.clientHeight ? document.documentElement.clientHeight/2 : document.body.clientHeight/2)+(ignoreMe=document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+"px")}
+#fancybox-loading.fancybox-ie6 div{background:transparent;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.herbsmedpharma.com/wp-content/plugins/easy-fancybox/fancybox/fancy_loading.png", sizingMethod="scale")}
+.fancybox-ie #fancybox-bg-n{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.herbsmedpharma.com/wp-content/plugins/easy-fancybox/fancybox/fancy_shadow_n.png",sizingMethod="scale")}
+.fancybox-ie #fancybox-bg-ne{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.herbsmedpharma.com/wp-content/plugins/easy-fancybox/fancybox/fancy_shadow_ne.png",sizingMethod="scale")}
+.fancybox-ie #fancybox-bg-e{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.herbsmedpharma.com/wp-content/plugins/easy-fancybox/fancybox/fancy_shadow_e.png",sizingMethod="scale")}
+.fancybox-ie #fancybox-bg-se{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.herbsmedpharma.com/wp-content/plugins/easy-fancybox/fancybox/fancy_shadow_se.png",sizingMethod="scale")}
+.fancybox-ie #fancybox-bg-s{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.herbsmedpharma.com/wp-content/plugins/easy-fancybox/fancybox/fancy_shadow_s.png",sizingMethod="scale")}
+.fancybox-ie #fancybox-bg-sw{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.herbsmedpharma.com/wp-content/plugins/easy-fancybox/fancybox/fancy_shadow_sw.png",sizingMethod="scale")}
+.fancybox-ie #fancybox-bg-w{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.herbsmedpharma.com/wp-content/plugins/easy-fancybox/fancybox/fancy_shadow_w.png",sizingMethod="scale")}
+.fancybox-ie #fancybox-bg-nw{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.herbsmedpharma.com/wp-content/plugins/easy-fancybox/fancybox/fancy_shadow_nw.png",sizingMethod="scale")}
+		</style>
+	<![endif]-->
+	<!--[if IE 8]>            
+		<style type="text/css">
+.fancybox-ie #fancybox-bg-n{-ms-filter:'progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.herbsmedpharma.com/wp-content/plugins/easy-fancybox/fancybox/fancy_shadow_n.png",sizingMethod="scale")'}
+.fancybox-ie #fancybox-bg-ne{-ms-filter:'progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.herbsmedpharma.com/wp-content/plugins/easy-fancybox/fancybox/fancy_shadow_ne.png",sizingMethod="scale")'}
+.fancybox-ie #fancybox-bg-e{-ms-filter:'progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.herbsmedpharma.com/wp-content/plugins/easy-fancybox/fancybox/fancy_shadow_e.png",sizingMethod="scale")'}
+.fancybox-ie #fancybox-bg-se{-ms-filter:'progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.herbsmedpharma.com/wp-content/plugins/easy-fancybox/fancybox/fancy_shadow_se.png",sizingMethod="scale")'}
+.fancybox-ie #fancybox-bg-s{-ms-filter:'progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.herbsmedpharma.com/wp-content/plugins/easy-fancybox/fancybox/fancy_shadow_s.png",sizingMethod="scale")'}
+.fancybox-ie #fancybox-bg-sw{-ms-filter:'progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.herbsmedpharma.com/wp-content/plugins/easy-fancybox/fancybox/fancy_shadow_sw.png",sizingMethod="scale")'}
+.fancybox-ie #fancybox-bg-w{-ms-filter:'progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.herbsmedpharma.com/wp-content/plugins/easy-fancybox/fancybox/fancy_shadow_w.png",sizingMethod="scale")'}
+.fancybox-ie #fancybox-bg-nw{-ms-filter:'progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.herbsmedpharma.com/wp-content/plugins/easy-fancybox/fancybox/fancy_shadow_nw.png",sizingMethod="scale")'}
+		</style>
+	<![endif]-->
+</head>
+<body class="page page-id-135 page-template page-template-page-team-grid-php custom-background browser-safari single-author active-sidebar sidebar-left">
+	<div id="header-wrap-outer">
+		<div id="top-container">
+			<div id="top-menu-wrap" class="container">
+								<ul id="menu-non-member-menu" class="top"><li id="menu-item-143" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-143"><a href="http://www.herbsmedpharma.com/membership-registration">Membership Registration</a></li>
+<li id="menu-item-144" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-144"><a href="http://www.herbsmedpharma.com/cart">Cart</a></li>
+<li id="menu-item-162" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-135 current_page_item menu-item-162"><a href="http://www.herbsmedpharma.com/testimonies">Testimonies</a></li>
+<li id="menu-item-92" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-92"><a href="http://www.herbsmedpharma.com/contact-us">Contact us</a></li>
+</ul>			</div>
+		</div>  <!-- #top-container  -->
+		<div id="header-wrap">
+			<div id="header" class="container">
+					<div id="header-inner">
+						<div id="logo-wrap">
+							<!-- Print logo -->
+							<h1 class="logo">
+								<a href="http://www.herbsmedpharma.com/" title="Herbs Med Pharma" rel="home">
+																			<img id="logo" src="http://www.herbsmedpharma.com/wp-content/uploads/2014/09/herbs-med-pharma-logo1.png" alt="Herbs Med Pharma" />
+																	</a>
+							</h1>
+							<!-- End Logo -->
+							<h2 id="tagline">Herbs Med Pharma</h2>
+						</div> <!-- #logo-wrap -->
+
+						<div id="main-menu-wrap">
+							<ul id="menu-menu-1" class="nav sf"><li id="menu-item-8" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-8"><a href="http://www.herbsmedpharma.com/">Home</a></li>
+<li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="http://www.herbsmedpharma.com/the-company">The Company</a></li>
+<li id="menu-item-73" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-73"><a href="http://www.herbsmedpharma.com/product-category/products">Products</a></li>
+<li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"><a href="http://www.herbsmedpharma.com/business-opportunity">Business Opportunity</a></li>
+<li id="menu-item-31" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a href="http://www.herbsmedpharma.com/announcement-and-promotions">Announcement and Promotions</a></li>
+</ul>							<a href="#" id="mobile_nav" class="closed"><span class="icon-menu-3"></span>Menu</a>										    </div><!-- #main-menu-wrap -->
+					</div><!-- #header-inner -->
+				</div><!-- #header  -->
+		</div> <!-- #header-wrap -->
+	</div> <!-- #header-wrap-outer -->
+
+	
+	<div class="wrapper container">
+		<div class="wrap-inside">
+			<div class="main-content">
+
+				<div id="woo-ordering">
+					<nav class="woocommerce-breadcrumb" itemprop="breadcrumb"><a class="home" href="http://www.herbsmedpharma.com">Home</a> &#47; Testimonies</nav>																			</div><!-- #woo-ordering --><div id="entry-full">
+    <div id="left" class="full-width">
+		<div id="head-line"> 
+	    <h1 class="title">Testimonies</h1>
+		</div>
+		<div class="post-full single team-page-grid">
+							
+            	<p><div class="ufo-shortcode third">
+<p style="text-align: center;"><a href="http://www.herbsmedpharma.com/wp-content/uploads/2014/09/Sandra-Hernandez.png" data-slb-group="135" data-slb-active="1" data-slb-internal="0"><img class="alignnone size-full wp-image-156" src="http://www.herbsmedpharma.com/wp-content/uploads/2014/09/Sandra-Hernandez.png" alt="Sandra-Hernandez" width="512" height="512" /></a><br />
+<b>Sandra Hernandez</b><br />
+Business Consultant<br />
+Davao City</p>
+<p>Before using clarifying solution for women, I  experienced  quiet insecurities from my face  every time I compare my skin with my clients and friends who have a fairer and fine  looking skin than me.. It was not long then, when a new friend of mine Ms.Arlyn Ayon introduced   the product. I used  clarifying  solution for women .After a week ,I noticed great  improvements  from my poor and darker spots  of my face. After a continued use, I was very surprised that the remarkable effects to my skin bring a great glow on my face. My skin now looks brighter and clearer beyond my expectations. Thanks for this product, it is safe and worth patronizing.</div><div class="ufo-shortcode third">
+<p style="text-align: center;"><a href="http://www.herbsmedpharma.com/wp-content/uploads/2014/09/Mirasol-Bulay-og.png" data-slb-group="135" data-slb-active="1" data-slb-internal="0"><img class="alignnone size-full wp-image-157" src="http://www.herbsmedpharma.com/wp-content/uploads/2014/09/Mirasol-Bulay-og.png" alt="Mirasol-Bulay-og" width="512" height="512" /></a><br />
+<b>Mirasol Bulay-og</b><br />
+Anchorwoman/ Drama Talent<br />
+Cebu City</p>
+<p>Having pimples and dark spots on my face are always a major concern to me. I felt apprehensive and conscious to what my listeners will say  every time they see me outside the studio. It was then that I used Nanz skin perfection products that a gleam of hope dawned on me. After 3 days using the product, I noticed the immediate result. My skin brightened and my pimples are slowly disappearing. My dark spots also are gone. Thanks to Nanz skin Perfection. I can strongly recommend its effectiveness and safety.</div> <div class="ufo-shortcode third-last">
+<p style="text-align: center;"><a href="http://www.herbsmedpharma.com/wp-content/uploads/2014/09/Madona-Dizon.png" data-slb-group="135" data-slb-active="1" data-slb-internal="0"><img class="alignnone size-full wp-image-159" src="http://www.herbsmedpharma.com/wp-content/uploads/2014/09/Madona-Dizon.png" alt="Madona-Dizon" width="512" height="512" /></a><br />
+<b>Madona Dizon</b><br />
+Municipal Councilor<br />
+Makilala, North Cotabato</p>
+<p>I was in the period of great desperation and hopelessness when my skin was ruined for the so many applications and treatments I used in my face. I spend so much that I even went to Manila believing that my melasma would be relieved by banking to the one of the most renowned facial treatment in the country. But inspire of these, everything turns back to reality. I have an abused, treated skin giving a dark, wrack and rigid facial skin. But a shot in the dark came to me when the Nanz skin perfection- clarifying solution makes a sudden blow of my imperfection. After religiously using the product without hesitation, everything is just unbelievable. My skin changed. A bright, shiny facial transformation could not ever be imagined. Thanks for the product. For me, it is second to none. </div><div class="clearboth"></div></p>
+<div class="ufo-shortcode fourth"></div>
+
+			                            
+         </div> <!--  end .post  -->
+    </div> <!--  end #left  -->
+
+</div> <!--  end #entry-full  -->
+
+</div> <!--  end .main-content  -->
+</div> <!-- .wrap-inside -->
+</div> <!-- .wrapper -->
+<div id="quote">
+	<span class="top-border"></span>
+	<p class="quote">The revolutionary innovation for beauty.</p>
+	<p class="quote-second">Nanz skin perfection- an ideal and perfect skin care for you…</p>
+		<span class="bottom-border"></span>
+</div> <!--  #quote  --><div id="footer-wrap-outer" class="primary-color">
+	<div id="footer">
+		<div id="footer-inside" class="container">
+							<div id="footer-widgets">
+					<div id="text-2" class="footer-widget widget_text"><h4 class="widget-title">About Us</h4><div class="widget-content">			<div class="textwidget"><p>Herbz Med Pharma is the brainchild of Ms. Arlyn Ayon who continuously dedicates herself in formulating and distributing products that are naturally and organically based to attain the highest standard quality of the best elements of nature   to its valued users and customers since 1999 until today.</p>
+<p><a title="The Company" href="http://www.herbsmedpharma.com/the-company"><img class="alignnone size-full wp-image-83" alt="read-more" src="http://www.herbsmedpharma.com/wp-content/uploads/2014/09/read-more.png" width="120" height="32" /></a></p>
+</div>
+		</div> <!-- end .widget-content --></div> <!-- end .footer-widget --><div id="text-3" class="footer-widget widget_text"><h4 class="widget-title">Business Opportunity</h4><div class="widget-content">			<div class="textwidget"><p>Herbs Med Pharma developed a progressive business opportunity of direct selling system crafted and based from the collective experience of the past and present of many successful companies to make it more feasible and viable to you.</p>
+<p><a title="The Company" href="http://www.herbsmedpharma.com/business-opportunity"><img class="alignnone size-full wp-image-83" alt="read-more" src="http://www.herbsmedpharma.com/wp-content/uploads/2014/09/read-more.png" width="120" height="32" /></a></p>
+</div>
+		</div> <!-- end .widget-content --></div> <!-- end .footer-widget --><div id="text-4" class="footer-widget widget_text"><h4 class="widget-title">Contact Information</h4><div class="widget-content">			<div class="textwidget"><p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.12893496272!2d125.08818600000001!3d7.881575999999991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32ff1908cbaa6b69%3A0x15faacde8ad5d194!2sLiloan+Elementary+School!5e0!3m2!1sen!2sph!4v1409675730731" width="300" height="125" frameborder="0" style="border:0"></iframe><br />
+<b>Herbs Med Pharma</b><br />
+G/F Ayon Building<br />
+P-4A ,Liloan, Valencia City<br />
+Tel #: 088.221.4256<br />
+Mobile: 0936.846.6990<br />
+nanzskinperfection@herbsmedpharma.com</p>
+</div>
+		</div> <!-- end .widget-content --></div> <!-- end .footer-widget -->				</div> <!-- #footer-widgets  -->
+					</div> <!-- #footer-inside  -->
+		<div class="clear"></div>
+	</div> <!-- #footer  -->
+</div> <!-- #footer-wrap-outer  -->
+
+<div id="bottom-info-wrapper">
+	<div id="bottom-info" class="container">
+		<div id="copyright" ><a href="http://www.herbsmedpharma.com/">Copyright &#64; 2014 Herbs Med Pharma</a></div>
+					<div id="weaccept-wrap">
+				<div id="accepted">
+											<div class="visa"></div>
+																<div class="mastercard"></div>
+																<div class="amex"></div>
+																<div class="paypal"></div>
+																<div class="checks"></div>
+									</div> <!-- #accepted -->
+			</div> <!-- #weaccept-wrap -->
+			</div> <!-- bottom info -->
+</div> <!-- #bottom-info-wrapper-->
+	<script type="text/javascript">
+		jQuery(document).ready(function() {
+			
+			jQuery('.ufo-shortcode.code').toggle();
+			 
+			jQuery('a.ufo-code-toggle').click(function() {
+				jQuery(this).next('.code').toggle('fast', function() {
+			  	});
+			});
+		});
+	</script>
+<style type="text/css">
+		.woocommerce-pagination .page-numbers li a:hover, .woocommerce-pagination .page-numbers li span.current  { background-color:#395b39 }
+		.widget_price_filter .ui-slider .ui-slider-handle { background-color:#395b39 }
+		.secondary-color { background-color:#395b39 }
+		.blurb a.readmore:hover, .widget_price_filter button, input[type="submit"]:hover, #respond input[type="submit"]:hover, .nav-next a, .nav-previous a, .pagination-prev a:hover, .pagination-next a:hover, span.onsale, .flex-control-nav li a:hover, .flex-control-nav li a.flex-active, a.readmore:hover, .upsells .products ul.custom-controls li:hover, .upsells .products ul.custom-controls li.active, .related ul.custom-controls li:hover, .related ul.custom-controls li.active, .custom-controls li:hover, ul.custom-controls li.active, #commentbox div.reply a:hover, .portfolio-overlay, .portfolio-tabs li.active, .portfolio-tabs li:hover, .home .home-products ul.products li ul.custom-controls li.active, .home-products .flex-direction-nav li .flex-prev:hover, .home-products .flex-direction-nav li .flex-next:hover  { background: #395b39}li.icon-twitter:hover, li.icon-facebook:hover, li.icon-feed:hover, li.icon-vimeo:hover, li.icon-youtube:hover, li.icon-google-plus:hover, li.icon-pinterest:hover, li.icon-link:hover, li.icon-earth:hover, .like-counter .icon-heart:hover, .share:hover, .woocommerce_message a.button, .woocommerce-message a.button, .sidebar-header:hover, .meta a:hover, .icore-gallery .icon-arrow-left, .icore-gallery .icon-arrow-right-2, blockquote:before, ul.nav li.current-menu-item a, ul.nav li a:hover, ul.nav ul li a:hover, ul.top ul li a:hover, ul.nav ul li.current-menu-item a, ul.top ul li.current-menu-item a, ul.nav li.megamenu ul li ul.sub-menu li a:hover, #search-toggle:hover, h1.logo a:hover {color:#395b39}</style><script type="text/javascript" src="http://www.herbsmedpharma.com/wp-content/cache/minify/000000/M9RPzs8rSUwu0U3LL8rVNdfPzEvOKU1JLdbPAqLC0tSiSj2QjF5uZh4A.js"></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/www.herbsmedpharma.com\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ...","cached":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://www.herbsmedpharma.com/wp-content/cache/minify/000000/M9RPzs8rSUwu0U3LL8rVNdfPzEvOKU1JLdbPKtYvTi7KLCgp1jHQL87ILyguSS0Ci2YkpuSXJ-VXIFjoKkoLUovSMoszAA.js"></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ufo = {"ajaxurl":"http:\/\/www.herbsmedpharma.com\/wp-admin\/admin-ajax.php","ajaxnonce":"aa8965dcb2"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://www.herbsmedpharma.com/wp-content/cache/minify/000000/lY7hDoIwDIRfyDFMfCHcjjCyrbMtUd5eGCYC_vJf7_pde62VgYoo2I5idUDCpT14ie4hoknI02nTR7wkBr-qxwSem69jUsgn_MMEIaWyHPwBdvcKsfYUA5nN2JMhuzh5iH0SOUoJ7LCfjetYzSh_ZRb8ZqvKahglzrXg9RDoRKBSqzJlRfa2894o1Zdr4A0.js"></script>
+<script type="text/javascript" src="http://www.herbsmedpharma.com/wp-content/cache/minify/000000/M9Qvz89Pzs_NTS1KTtVPLC5OLSnWzwKiwtLUokrdpJz85OzSTChXD8wN9dTLzcwDAA.js"></script>
+<script type="text/javascript" src="http://www.herbsmedpharma.com/wp-content/cache/minify/000000/M9Qvz89Pzs_NTS1KTtVPLC5OLSnWzwKiwtLUokrdgpzE5NSM_JyU1CKokB6SkF5uZh4A.js"></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var woocommerce_params = {"countries":"[]","plugin_url":"http:\/\/www.herbsmedpharma.com\/wp-content\/plugins\/woocommerce","ajax_url":"\/wp-admin\/admin-ajax.php","ajax_loader_url":"http:\/\/www.herbsmedpharma.com\/wp-content\/plugins\/woocommerce\/assets\/images\/ajax-loader@2x.gif","i18n_select_state_text":"Select an option\u2026","i18n_required_rating_text":"Please select a rating","i18n_no_matching_variations_text":"Sorry, no products matched your selection. Please choose a different combination.","i18n_required_text":"required","i18n_view_cart":"View Cart \u2192","review_rating_required":"yes","update_order_review_nonce":"fa7c9c998e","apply_coupon_nonce":"8d894f2f7c","option_guest_checkout":"yes","checkout_url":"\/wp-admin\/admin-ajax.php?action=woocommerce-checkout","is_checkout":"0","update_shipping_method_nonce":"0389f70096","cart_url":"http:\/\/www.herbsmedpharma.com\/cart","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://www.herbsmedpharma.com/wp-content/cache/minify/000000/jY7tDoIwDEVfyG0hJr7PKAUL24rt_ODtHTqJidH4r7f3nLSNuzIDx4gC6LwqZnWjul44ZUzde20jpV3zRRhPZ5TFAPNEWJN9pp_edgi8ZNOLHyKmrNVRinNAE2g45pZvDgKVdvVm4c4FassNwf_IC-G1kOh1Mb1PsKzcNtSXX9k0dm8PdvYwfTgVLUtKwwO5Aw.js"></script>
+<script type="text/javascript" src="http://www.herbsmedpharma.com/wp-content/cache/minify/000000/M9RPTSyu1E1LzEuuTMqv0M8qLE0tqtTLzS8tTi3PSE3N0StITM4GAA.js"></script>
+<script type="text/javascript" src="http://www.herbsmedpharma.com/wp-content/cache/minify/000000/jY_hCsIwDIRfyC7skbL1bCNpO5YUfHyriENQ9Od93EdyM5mUTRFUUvalXckzCowWNqhU0MVo21ukVQXVT_M3IeLMXf2PPkZmR3BORjLiyxlkuoOfVpc3p8sHY23Vxwchc42KfZwqnI49Tzw96A0.js"></script>
+<script type="text/javascript" id="slb_footer">/* <![CDATA[ */if ( !!window.jQuery ) {(function($){$(document).ready(function(){if ( !!window.SLB && SLB.has_child('View.init') ) { SLB.View.init({"ui_autofit":true,"ui_animate":true,"slideshow_autostart":true,"slideshow_duration":"6","group_loop":true,"ui_overlay_opacity":"0.8","ui_title_default":false,"theme_default":"slb_default","ui_labels":{"loading":"Loading","close":"Close","nav_next":"Next","nav_prev":"Previous","slideshow_start":"Start slideshow","slideshow_stop":"Stop slideshow","group_status":"Item %current% of %total%"}}); }
+if ( !!window.SLB && SLB.has_child('View.assets') ) { {$.extend(SLB.View.assets, {"http:\/\/www.herbsmedpharma.com\/wp-content\/uploads\/2014\/09\/Sandra-Hernandez.png":{"id":156,"_entries":[],"type":"image","source":"http:\/\/www.herbsmedpharma.com\/wp-content\/uploads\/2014\/09\/Sandra-Hernandez.png","internal":true,"sizes":{"thumbnail":{"file":"Sandra-Hernandez-53x53.png","width":53,"height":53,"mime-type":"image\/png","wp_smushit":"Reduced by 0.5% (31&nbsp;B)"},"post-thumbnail":{"file":"Sandra-Hernandez-53x53.png","width":53,"height":53,"mime-type":"image\/png","wp_smushit":"No savings"},"post-thumb-big":{"file":"Sandra-Hernandez-512x400.png","width":512,"height":400,"mime-type":"image\/png","wp_smushit":"Reduced by 1.2% (3.5&nbsp;KB)"},"widget-thumb":{"file":"Sandra-Hernandez-53x53.png","width":53,"height":53,"mime-type":"image\/png","wp_smushit":"No savings"},"gallery-thumb":{"file":"Sandra-Hernandez-480x360.png","width":480,"height":360,"mime-type":"image\/png","wp_smushit":"Reduced by 1.9% (4.5&nbsp;KB)"},"shop_thumbnail":{"file":"Sandra-Hernandez-50x50.png","width":50,"height":50,"mime-type":"image\/png","wp_smushit":"Reduced by 0.5% (26&nbsp;B)"},"shop_catalog":{"file":"Sandra-Hernandez-420x512.png","width":420,"height":512,"mime-type":"image\/png","wp_smushit":"Reduced by 1.1% (3.2&nbsp;KB)"},"original":{"file":"2014\/09\/Sandra-Hernandez.png","width":512,"height":512}},"image_meta":{"aperture":0,"credit":"","camera":"","caption":"","created_timestamp":0,"copyright":"","focal_length":0,"iso":0,"shutter_speed":0,"title":"","orientation":0},"wp_smushit":"Reduced by 5.0% (16.6&nbsp;KB)","description":"","title":"Sandra-Hernandez","caption":""},"http:\/\/www.herbsmedpharma.com\/wp-content\/uploads\/2014\/09\/Mirasol-Bulay-og.png":{"id":157,"_entries":[],"type":"image","source":"http:\/\/www.herbsmedpharma.com\/wp-content\/uploads\/2014\/09\/Mirasol-Bulay-og.png","internal":true,"sizes":{"thumbnail":{"file":"Mirasol-Bulay-og-53x53.png","width":53,"height":53,"mime-type":"image\/png","wp_smushit":"Reduced by 0.6% (36&nbsp;B)"},"post-thumbnail":{"file":"Mirasol-Bulay-og-53x53.png","width":53,"height":53,"mime-type":"image\/png","wp_smushit":"No savings"},"post-thumb-big":{"file":"Mirasol-Bulay-og-512x400.png","width":512,"height":400,"mime-type":"image\/png","wp_smushit":"Reduced by 1.3% (3.7&nbsp;KB)"},"widget-thumb":{"file":"Mirasol-Bulay-og-53x53.png","width":53,"height":53,"mime-type":"image\/png","wp_smushit":"No savings"},"gallery-thumb":{"file":"Mirasol-Bulay-og-480x360.png","width":480,"height":360,"mime-type":"image\/png","wp_smushit":"Reduced by 2.1% (5&nbsp;KB)"},"shop_thumbnail":{"file":"Mirasol-Bulay-og-50x50.png","width":50,"height":50,"mime-type":"image\/png","wp_smushit":"Reduced by 0.5% (28&nbsp;B)"},"shop_catalog":{"file":"Mirasol-Bulay-og-420x512.png","width":420,"height":512,"mime-type":"image\/png","wp_smushit":"Reduced by 1.2% (3.4&nbsp;KB)"},"original":{"file":"2014\/09\/Mirasol-Bulay-og.png","width":512,"height":512}},"image_meta":{"aperture":0,"credit":"","camera":"","caption":"","created_timestamp":0,"copyright":"","focal_length":0,"iso":0,"shutter_speed":0,"title":"","orientation":0},"wp_smushit":"Reduced by 4.8% (15.5&nbsp;KB)","description":"","title":"Mirasol-Bulay-og","caption":""},"http:\/\/www.herbsmedpharma.com\/wp-content\/uploads\/2014\/09\/Madona-Dizon.png":{"id":159,"_entries":[],"type":"image","source":"http:\/\/www.herbsmedpharma.com\/wp-content\/uploads\/2014\/09\/Madona-Dizon.png","internal":true,"sizes":{"thumbnail":{"file":"Madona-Dizon-53x53.png","width":53,"height":53,"mime-type":"image\/png","wp_smushit":"Reduced by 0.6% (34&nbsp;B)"},"post-thumbnail":{"file":"Madona-Dizon-53x53.png","width":53,"height":53,"mime-type":"image\/png","wp_smushit":"No savings"},"post-thumb-big":{"file":"Madona-Dizon-512x400.png","width":512,"height":400,"mime-type":"image\/png","wp_smushit":"Reduced by 1.4% (4.3&nbsp;KB)"},"widget-thumb":{"file":"Madona-Dizon-53x53.png","width":53,"height":53,"mime-type":"image\/png","wp_smushit":"No savings"},"gallery-thumb":{"file":"Madona-Dizon-480x360.png","width":480,"height":360,"mime-type":"image\/png","wp_smushit":"Reduced by 2.0% (4.9&nbsp;KB)"},"shop_thumbnail":{"file":"Madona-Dizon-50x50.png","width":50,"height":50,"mime-type":"image\/png","wp_smushit":"Reduced by 0.4% (21&nbsp;B)"},"shop_catalog":{"file":"Madona-Dizon-420x512.png","width":420,"height":512,"mime-type":"image\/png","wp_smushit":"Reduced by 1.3% (3.9&nbsp;KB)"},"original":{"file":"2014\/09\/Madona-Dizon.png","width":512,"height":512}},"image_meta":{"aperture":0,"credit":"","camera":"","caption":"","created_timestamp":0,"copyright":"","focal_length":0,"iso":0,"shutter_speed":0,"title":"","orientation":0},"wp_smushit":"Reduced by 2.4% (8&nbsp;KB)","description":"","title":"Madona-Dizon","caption":""}});} }
+/* THM */
+if ( !!window.SLB && SLB.has_child('View.extend_theme') ) { SLB.View.extend_theme('slb_baseline',{"name":"Baseline","parent":"","styles":[{"handle":"base","uri":"http:\/\/www.herbsmedpharma.com\/wp-content\/plugins\/simple-lightbox\/themes\/baseline\/css\/style.css","deps":[]}],"layout_raw":"<div class=\"slb_container\"><div class=\"slb_content\">{{item.content}}<div class=\"slb_nav\"><span class=\"slb_prev\">{{ui.nav_prev}}<\/span><span class=\"slb_next\">{{ui.nav_next}}<\/span><\/div><div class=\"slb_controls\"><span class=\"slb_close\">{{ui.close}}<\/span><span class=\"slb_slideshow\">{{ui.slideshow_control}}<\/span><\/div><div class=\"slb_loading\">{{ui.loading}}<\/div><\/div><div class=\"slb_details\"><div class=\"inner\"><div class=\"slb_data\"><div class=\"slb_data_content\"><span class=\"slb_data_title\">{{item.title}}<\/span><span class=\"slb_group_status\">{{ui.group_status}}<\/span><div class=\"slb_data_desc\">{{item.description}}<\/div><\/div><\/div><div class=\"slb_nav\"><span class=\"slb_prev\">{{ui.nav_prev}}<\/span><span class=\"slb_next\">{{ui.nav_next}}<\/span><\/div><\/div><\/div><\/div>"}); }if ( !!window.SLB && SLB.has_child('View.extend_theme') ) { SLB.View.extend_theme('slb_default',{"name":"Default (Light)","parent":"slb_baseline","styles":[{"handle":"font","uri":"http:\/\/fonts.googleapis.com\/css?family=Yanone+Kaffeesatz","deps":[]},{"handle":"base","uri":"http:\/\/www.herbsmedpharma.com\/wp-content\/plugins\/simple-lightbox\/themes\/default\/css\/style.css","deps":[]}]}); }})})(jQuery);}/* ]]> */</script>
+<script type="text/javascript" id="slb_context">/* <![CDATA[ */if ( !!window.jQuery ) {(function($){$(document).ready(function(){if ( !!window.SLB ) { {$.extend(SLB, {"context":["public","user_guest"]});} }})})(jQuery);}/* ]]> */</script>
+
+<script type="text/javascript">
+jQuery(document).on('ready post-load', easy_fancybox_handler );
+</script>
+<!-- begin olark code -->
+<script data-cfasync="false" type='text/javascript'>/*<![CDATA[*/window.olark||(function(c){var f=window,d=document,l=f.location.protocol=="https:"?"https:":"http:",z=c.name,r="load";var nt=function(){
+f[z]=function(){
+(a.s=a.s||[]).push(arguments)};var a=f[z]._={
+},q=c.methods.length;while(q--){(function(n){f[z][n]=function(){
+f[z]("call",n,arguments)}})(c.methods[q])}a.l=c.loader;a.i=nt;a.p={
+0:+new Date};a.P=function(u){
+a.p[u]=new Date-a.p[0]};function s(){
+a.P(r);f[z](r)}f.addEventListener?f.addEventListener(r,s,false):f.attachEvent("on"+r,s);var ld=function(){function p(hd){
+hd="head";return["<",hd,"></",hd,"><",i,' onl' + 'oad="var d=',g,";d.getElementsByTagName('head')[0].",j,"(d.",h,"('script')).",k,"='",l,"//",a.l,"'",'"',"></",i,">"].join("")}var i="body",m=d[i];if(!m){
+return setTimeout(ld,100)}a.P(1);var j="appendChild",h="createElement",k="src",n=d[h]("div"),v=n[j](d[h](z)),b=d[h]("iframe"),g="document",e="domain",o;n.style.display="none";m.insertBefore(n,m.firstChild).id=z;b.frameBorder="0";b.id=z+"-loader";if(/MSIE[ ]+6/.test(navigator.userAgent)){
+b.src="javascript:false"}b.allowTransparency="true";v[j](b);try{
+b.contentWindow[g].open()}catch(w){
+c[e]=d[e];o="javascript:var d="+g+".open();d.domain='"+d.domain+"';";b[k]=o+"void(0);"}try{
+var t=b.contentWindow[g];t.write(p());t.close()}catch(x){
+b[k]=o+'d.write("'+p().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}a.P(2)};ld()};nt()})({
+loader: "static.olark.com/jsclient/loader0.js",name:"olark",methods:["configure","extend","declare","identify"]});
+/* custom configuration goes here (www.olark.com/documentation) */
+olark.identify('9816-161-10-9605');/*]]>*/</script><noscript><a href="https://www.olark.com/site/9816-161-10-9605/contact" title="Contact us" target="_blank">Questions? Feedback?</a> powered by <a href="http://www.olark.com?welcome" title="Olark live chat software">Olark live chat software</a></noscript>
+<!-- end olark code -->
+</body>
+</html>
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Minified using disk
+Page Caching using disk: enhanced
+Database Caching 1/134 queries in 0.028 seconds using disk
+Object Caching 1253/1463 objects using disk
+
+ Served from: www.herbsmedpharma.com @ 2014-09-24 07:24:54 by W3 Total Cache -->

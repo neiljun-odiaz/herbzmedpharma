@@ -1,0 +1,69 @@
+/* 
+
+Title:
+	1140px Grid IE Styles
+
+Package: 
+	The 1140px Grid V2
+	
+Author: 
+	Andy Taylor 
+	
+Description:
+	The 1140 grid fits perfectly into a 1280 monitor. On smaller monitors it becomes fluid and adapts to the width of the browser.
+	
+	Beyond a certain point it uses media queries to serve up a mobile version, which essentially stacks all the columns on top of each other so the flow of information still makes sense.
+	
+	Scrap 1024! Design once at 1140 for 1280, and with very little extra work, it will adapt itself to work on just about any monitor, even mobile.
+	
+Links: 
+	http://cssgrid.net
+	http://www.twitter.com/andytlr 
+	http://www.andytlr.com   
+
+
+*/
+
+.onecol {
+	width: 4.7%;
+}
+
+.twocol {
+	width: 13.2%;
+}
+
+.threecol {
+	width: 22.05%;
+}
+
+.fourcol {
+	width: 30.6%;
+}
+
+.fivecol {
+	width: 39%;
+}
+
+.sixcol {
+	width: 48%;
+}
+
+.sevencol {
+	width: 56.75%;
+}
+
+.eightcol {
+	width: 61.6%;
+}
+
+.ninecol {
+	width: 74.05%;
+}
+
+.tencol {
+	width: 82%;
+}
+
+.elevencol {
+	width: 91.35%;
+}

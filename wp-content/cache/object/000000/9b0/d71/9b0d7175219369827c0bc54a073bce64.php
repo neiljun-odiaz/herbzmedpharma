@@ -1,0 +1,1 @@
+…¤"T<?php exit; ?>a:1:{s:7:"content";a:5:{s:10:"_edit_last";a:1:{i:0;s:1:"1";}s:10:"_edit_lock";a:1:{i:0;s:12:"1410328246:2";}s:17:"_wp_page_template";a:1:{i:0;s:16:"page-sidebar.php";}s:29:"rfpostoption_sidebar_position";a:1:{i:0;s:7:"default";}s:27:"rfpostoption_sidebar_custom";a:1:{i:0;s:7:"Sidebar";}}}

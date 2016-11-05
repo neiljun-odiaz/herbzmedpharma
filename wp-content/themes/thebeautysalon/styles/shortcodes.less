@@ -1,0 +1,599 @@
+/***********************************************/
+/*                 Shortcodes                  */
+/***********************************************/
+
+
+.page-title {
+	margin:0 0 20px 0;
+	.line{
+		top:28px;
+		margin:0px;
+	}
+	h1 {
+		float:left;
+		padding:0 22px 0 0;
+		font-size:2.8em !important;
+		color:#3e3e3e !important;
+		line-height:36.4px;
+	}
+}
+
+.line{
+	overflow:hidden;
+	background:#ddd;
+	height:1px;
+	position:Relative;
+	margin:0 0 20px 0;
+}
+
+
+.linelink {
+	margin:0 0 20px 0;
+	a {
+		text-decoration:none;
+		&:hover {
+			text-decoration:underline;
+		}
+		&.alignleft{
+			margin-right: 10px;
+		}
+		&.alignright{
+			margin-left:10px;
+		}
+	}
+	.line {
+		margin:0px;
+		top:10px;
+	}
+}
+
+@media  screen and (max-width : 768px) {
+	.linelink {
+		.line {
+			top:15px;
+		}
+		a {
+			&.alignleft{
+				margin-right: 20px;
+			}
+			&.alignright{
+				margin-left:20px;
+			}		
+		}
+	}
+}
+
+.hoverfade {
+	background:url("images/link.png") no-repeat center center;
+	display:block;
+	img {
+		display:block;
+	}
+}
+
+.highlight {
+	background: @color-primary;
+	.element-color(@color-primary);
+	padding:0 5px;
+	&.red {
+		background: @color-red;
+		.element-color(@color-red);	
+	}
+	&.cyan {
+		background: @color-cyan;
+		.element-color(@color-cyan);	
+	}
+	&.yellow {
+		background: @color-yellow;
+		.element-color(@color-yellow);	
+	}
+	&.black {
+		background: @color-black;
+		.element-color(@color-black);	
+	}
+	&.blue {
+		background: @color-blue;
+		.element-color(@color-blue);	
+	}
+	&.green {
+		background: @color-green;
+		.element-color(@color-green);	
+	}
+	&.purple {
+		background: @color-purple;
+		.element-color(@color-purple);	
+	}
+	&.orange {
+		background: @color-orange;
+		.element-color(@color-orange);	
+	}
+}
+
+.color-block {
+	background: @color-primary;
+	height:20px;
+	position:relative;
+	top:5px;
+	width:30px;
+	display:inline-block;
+	&.red {
+		background: @color-red;
+		.element-color(@color-red);	
+	}
+	&.cyan {
+		background: @color-cyan;
+		.element-color(@color-cyan);	
+	}
+	&.yellow {
+		background: @color-yellow;
+		.element-color(@color-yellow);	
+	}
+	&.black {
+		background: @color-black;
+		.element-color(@color-black);	
+	}
+	&.blue {
+		background: @color-blue;
+		.element-color(@color-blue);	
+	}
+	&.green {
+		background: @color-green;
+		.element-color(@color-green);	
+	}
+	&.purple {
+		background: @color-purple;
+		.element-color(@color-purple);	
+	}
+	&.orange {
+		background: @color-orange;
+		.element-color(@color-orange);	
+	}	
+}
+
+
+.message, .button-inner {
+	background-color: @color-primary;
+	color:#fff;
+	border:1px solid @color-primary - #222;
+	padding:22px 22px;
+	
+	&.text-shadow-outer{
+		text-shadow: 1px 1px 0px @color-primary - #333;	
+	}
+	&.text-shadow-inner{
+		text-shadow: -1px -1px 0px @color-primary - #333;	
+	}	
+	h5 {
+		font-size:14px;
+		font-weight:700;
+	}
+	
+	.buttonarrow {
+		width:0px;
+		height:0px;
+		display:inline-block;
+		border-width:5px;
+		border-color:transparent transparent transparent #fff;
+		border-style:solid;
+		position:Relative;
+		left:11px;
+	}
+	
+	&.red {
+		background-color: @color-red;
+		border:1px solid @color-red - #222;
+		.element-color(@color-red);	
+		&.text-shadow-outer{
+			text-shadow: 1px 1px 0px @color-red - #222;	
+		}
+		&.text-shadow-inner{
+			text-shadow: -1px -1px 0px @color-red - #222;	
+		}	
+	}
+	&.cyan {
+		background-color: @color-cyan;
+		border:1px solid @color-cyan - #222;
+		.element-color(@color-cyan);	
+		&.text-shadow-outer{
+			text-shadow: 1px 1px 0px @color-cyan - #222;	
+		}
+		&.text-shadow-inner{
+			text-shadow: -1px -1px 0px @color-cyan - #222;	
+		}	
+	}
+	&.yellow {
+		background-color: @color-yellow;
+		border:1px solid @color-yellow - #222;
+		.element-color(@color-yellow);	
+		&.text-shadow-outer{
+			text-shadow: 1px 1px 0px @color-yellow - #222;	
+		}
+		&.text-shadow-inner{
+			text-shadow: -1px -1px 0px @color-yellow - #222;	
+		}	
+	}
+	&.black {
+		background-color: @color-black;
+		border:1px solid @color-black - #222;
+		.element-color(@color-black);	
+		&.text-shadow-outer{
+			text-shadow: 1px 1px 0px @color-black - #222;	
+		}
+		&.text-shadow-inner{
+			text-shadow: -1px -1px 0px @color-black - #222;	
+		}	
+	}
+	&.blue {
+		background-color: @color-blue;
+		border:1px solid @color-blue - #222;
+		.element-color(@color-blue);	
+		&.text-shadow-outer{
+			text-shadow: 1px 1px 0px @color-blue - #222;	
+		}
+		&.text-shadow-inner{
+			text-shadow: -1px -1px 0px @color-blue - #222;	
+		}	
+	}
+	&.green {
+		background-color: @color-green;
+		border:1px solid @color-green - #222;
+		.element-color(@color-green);	
+		&.text-shadow-outer{
+			text-shadow: 1px 1px 0px @color-green - #222;	
+		}
+		&.text-shadow-inner{
+			text-shadow: -1px -1px 0px @color-green - #222;	
+		}	
+	}
+	&.purple {
+		background-color: @color-purple;
+		border:1px solid @color-purple - #222;
+		.element-color(@color-purple);	
+		&.text-shadow-outer{
+			text-shadow: 1px 1px 0px @color-purple - #222;	
+		}
+		&.text-shadow-inner{
+			text-shadow: -1px -1px 0px @color-purple - #222;	
+		}	
+	}
+	&.orange {
+		background-color: @color-orange;
+		border:1px solid @color-orange - #222;
+		.element-color(@color-orange);	
+		&.text-shadow-outer{
+			text-shadow: 1px 1px 0px @color-orange - #222;	
+		}
+		&.text-shadow-inner{
+			text-shadow: -1px -1px 0px @color-orange - #222;	
+		}	
+	}	
+}
+
+.button {
+
+	margin:0 0 10px 0;
+	.button-inner {
+		padding:11px 22px;
+		font-weight:700;
+	}
+	
+	a.button-inner {
+		.element-color(@color-primary);	
+		display:inline-block;
+		text-decoration:none !important;
+		&:hover{
+			background-color: @color-primary + #151515;
+			cursor:pointer;
+		}
+		&.red:hover {
+			background-color: @color-red + #151515;
+		}
+		&.cyan:hover {
+			background-color: @color-cyan + #151515;
+		}
+		&.yellow:hover {
+			background-color: @color-yellow + #151515;	
+		}
+		&.black:hover {
+			background-color: @color-black + #151515;
+		}
+		&.blue:hover {
+			background-color: @color-blue + #151515;
+		}
+		&.green:hover {
+			background-color: @color-green + #151515;
+		}
+		&.purple:hover {
+			background-color: @color-purple + #151515;
+		}
+		&.orange:hover {
+			background-color: @color-orange + #151515;
+		}
+		
+		&:active {
+			background-color: @color-primary - #111;			
+		}
+		&.red:active {
+			background-color: @color-red - #111;
+		}
+		&.cyan:active {
+			background-color: @color-cyan - #111;
+		}
+		&.yellow:active {
+			background-color: @color-yellow - #111;	
+		}
+		&.black:active {
+			background-color: @color-black - #111;
+		}
+		&.blue:active {
+			background-color: @color-blue - #111;
+		}
+		&.green:active {
+			background-color: @color-green - #111;
+		}
+		&.purple:active {
+			background-color: @color-purple - #111;
+		}
+		&.orange:active {
+			background-color: @color-orange - #111;
+		}	
+	}
+}	
+	
+.toggle {
+	h4{
+		background:url('images/expand.png') no-repeat left center;
+		padding:0 0 0 20px;
+		margin:0 0 20px 0;
+		cursor:pointer;
+	}
+	
+	.toggle-content {
+		display:none;
+	}
+		
+	&.open {
+		h4{
+			background-image:url('images/contract.png');
+		}
+		.toggle-content {
+			display:block;
+		}
+	}
+	
+}
+
+
+.postslider {
+	.postslider-title h1{
+		color:#3e3e3e;
+		margin:0 0 20px 0;
+		font-size:1.4em;
+		font-weight:700;
+	}
+	.slide {
+		display:none;
+		&:first-child {
+			display:block;
+		}
+		.slide-image {
+			float:left;
+		}
+		.slide-content {
+			margin:0 0 0 85px;
+		}
+		h2.slide-title{
+			font-size:1.1em;
+			a {
+				color:#3e3e3e;
+				font-weight:700;
+				text-decoration:none;
+			} 
+		}
+	}
+	.pagination {
+		margin:10px 0 0 85px;
+		text-align:left;
+		.page {
+			cursor:pointer;
+			padding:0 10px;
+			border-left:1px solid #ddd;
+			&:first-child {
+				border:0px;
+				padding-left:0px;
+			}
+			&:hover {
+				color:#000;
+			}
+			&.current {
+				font-weight:700;
+			}
+		}
+	}
+	&.no-image {
+		.slide {
+			.slide-image {
+				display:none;
+			}
+			.slide-content {
+				margin:0px;
+			}			
+		}
+		.pagination {
+			margin-left:0px;
+		}
+	}	
+
+}
+
+
+
+.postlist {
+	.item {
+		.item-title {
+			font-size:1.1em;
+			font-weight:700;
+			a {
+				color:#3e3e3e;
+				text-decoration:none;
+				&:hover {
+					color: @color-primary;
+				}
+			}
+		}
+		.item-image {
+			margin:0 0 11px 0;
+			img {
+				margin:0px;
+			}
+		}
+	}
+}
+
+
+.banner {
+	position:relative;
+	display:inline-block;
+	&.displaced {
+		position:relative;
+		top:-32px;
+	}
+	&.centered {
+		left:50%;
+	}
+	.flap-right {
+		position:absolute;
+		top:0px;
+		right: -10px;
+		width: 0;
+		height: 0;
+		border-left: 10px solid @color-primary - #333;
+		border-top: 10px solid transparent;
+	}
+	.flap-left {
+		position:absolute;
+		top:0px;
+		left: -10px;
+		width: 0;
+		height: 0;
+		border-right: 10px solid @color-primary - #333;
+		border-top: 10px solid transparent;
+	}
+	
+	h1,h2,h3,h4,h5,h6 {
+		.element-color( @color-primary ) !important;
+		padding:5px 10px;
+		margin:0px;
+	}
+	
+	h1 {
+		font-size:1.8em;
+	}
+	
+	h2 {
+		font-size: 1.5em;
+	}
+	
+	h3 {
+		font-size: 1.2em;
+	}
+	
+	a {
+		color:#fff;
+		text-decoration:none;
+	}
+	
+	&.red{
+		.flap-right {
+			border-color: transparent transparent transparent @color-red - #333;
+		}
+		.flap-left {
+			border-color: transparent @color-red - #333 transparent transparent;
+		}
+	}
+	&.cyan{
+		.flap-right {
+			border-color: transparent transparent transparent @color-cyan - #333;
+		}
+		.flap-left {
+			border-color: transparent @color-cyan - #333 transparent transparent;
+		}
+	}
+	&.yellow{
+		.flap-right {
+			border-color: transparent transparent transparent @color-yellow - #333;
+		}
+		.flap-left {
+			border-color: transparent @color-yellow - #333 transparent transparent;
+		}
+	}
+	&.black{
+		.flap-right {
+			border-color: transparent transparent transparent @color-black - #333;
+		}
+		.flap-left {
+			border-color: transparent @color-black - #333 transparent transparent;
+		}
+	}
+	&.blue{
+		.flap-right {
+			border-color: transparent transparent transparent @color-blue - #333;
+		}
+		.flap-left {
+			border-color: transparent @color-blue - #333 transparent transparent;
+		}
+	}
+	&.green{
+		.flap-right {
+			border-color: transparent transparent transparent @color-green - #333;
+		}
+		.flap-left {
+			border-color: transparent @color-green - #333 transparent transparent;
+		}
+	}
+	&.purple{
+		.flap-right {
+			border-color: transparent transparent transparent @color-purple - #333;
+		}
+		.flap-left {
+			border-color: transparent @color-purple - #333 transparent transparent;
+		}
+	}
+	&.orange{
+		.flap-right {
+			border-color: transparent transparent transparent @color-orange - #333;
+		}
+		.flap-left {
+			border-color: transparent @color-orange - #333 transparent transparent;
+		}
+	}
+
+	.button {
+		margin:0px;
+	}
+}
+
+
+/***********************************************/
+/*                  Sections                   */
+/***********************************************/
+
+.section {
+	max-width: 1140px;
+	margin:0 auto 40px auto;
+	background: #fff;
+	position:Relative;
+	.border.border-section {
+		border:1px solid #dedede;
+	}
+	.section-inner {
+		padding:22px 0;
+	}
+	&.dark {
+		background: #434343;
+		color: #888;
+		h1,h2,h3,h4,h5,h6 {
+			color:#fff;
+		}
+	}
+}

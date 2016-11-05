@@ -1,0 +1,192 @@
+/** Mixins 
+  * 
+  * http://redfactory.nl/themes
+  * By Daniel Pataki
+  * http://www.twitter.com/danielpataki
+  * http://www.danielpataki.com
+  *
+  */
+  
+  
+.element-color( @color ) when ( lightness( @color ) >= 60% ) {
+	color: @color - #888;
+} 
+
+.element-color( @color ) when ( lightness( @color ) < 60% ) {
+	color: #fff;
+}
+
+
+.radius(@radius:3px) {
+    -webkit-border-radius: @radius;
+ 	 -khtml-border-radius: @radius;
+       -moz-border-radius: @radius;
+        -ms-border-radius: @radius;
+         -o-border-radius: @radius;
+	        border-radius: @radius;
+}
+
+.border_radius( @a, @b, @c, @d ) {
+    -webkit-border-radius: @a @b @c @d;
+ 	 -khtml-border-radius: @a @b @c @d;
+       -moz-border-radius: @a @b @c @d;
+        -ms-border-radius: @a @b @c @d;
+         -o-border-radius: @a @b @c @d;
+	        border-radius: @a @b @c @d;	
+}
+
+
+.box_shadow(@h:1px, @v:1px, @blur:1px, @spread:0px, @color:rgba(0,0,0,0.1), @position: none ) when ( @position = none) {
+	-webkit-box-shadow: @h @v @blur @spread @color;
+ 	 -khtml-box-shadow: @h @v @blur @spread @color;
+	   -moz-box-shadow: @h @v @blur @spread @color;
+	    -ms-box-shadow: @h @v @blur @spread @color;
+	     -o-box-shadow: @h @v @blur @spread @color;
+	        box-shadow: @h @v @blur @spread @color;
+}
+
+.box_shadow(@h:1px, @v:1px, @blur:1px, @spread:0px, @color:rgba(0,0,0,0.1), @position: none ) when ( @position = inset ) {
+	-webkit-box-shadow: @h @v @blur @spread @color @position;
+ 	 -khtml-box-shadow: @h @v @blur @spread @color @position;
+	   -moz-box-shadow: @h @v @blur @spread @color @position;
+	    -ms-box-shadow: @h @v @blur @spread @color @position;
+	     -o-box-shadow: @h @v @blur @spread @color @position;
+	        box-sahdow: @h @v @blur @spread @color @position;
+}
+
+.box_shadow_multiple(@ih:1px, @iv:1px, @iblur:1px, @ispread:1px, @icolor:rgba(200,200,200,0.1), @oh:1px, @ov:1px, @oblur:1px, @ospread:1px, @ocolor:rgba(0,0,0,0.1)) {
+	-webkit-box-shadow: @ih @iv @iblur @ispread @icolor inset, @oh @ov @oblur @ospread @ocolor;
+	 -khtml-box-shadow: @ih @iv @iblur @ispread @icolor inset, @oh @ov @oblur @ospread @ocolor;
+	   -moz-box-shadow: @ih @iv @iblur @ispread @icolor inset, @oh @ov @oblur @ospread @ocolor;
+	    -ms-box-shadow: @ih @iv @iblur @ispread @icolor inset, @oh @ov @oblur @ospread @ocolor;
+	     -o-box-shadow: @ih @iv @iblur @ispread @icolor inset, @oh @ov @oblur @ospread @ocolor;
+	        box-shadow: @ih @iv @iblur @ispread @icolor inset, @oh @ov @oblur @ospread @ocolor;
+}
+
+
+
+.opacity( @opacity: 0.8 ) {
+	@ieopacity: @opacity * 100;
+	filter: ~"alpha(opacity = @{ieopacity} )";
+	
+	-khtml-opacity: @opacity;
+	  -moz-opacity: @opacity;
+           opacity: @opacity;
+}
+
+.gradient( @start, @end, horizontal ) {
+	background: @start;
+	filter: ~"progid:DXImageTransform.Microsoft.gradient( startColorstr='@{start}', endColorstr='@{end}',GradientType=1 )";
+	background:  -webkit-gradient(linear, left top, right top, color-stop(0%,@start), color-stop(100%,@end));
+
+	background: -webkit-linear-gradient(left, @start 0%, @end 100%); 
+	background:    -moz-linear-gradient(left, @start 0%, @end 100%);
+	background:     -ms-linear-gradient(left, @start 0%, @end 100%);
+	background:      -o-linear-gradient(left, @start 0%, @end 100%); 
+	background:         linear-gradient(left, @start 0%, @end 100%);
+}
+
+.gradient( @start, @end ) {
+	background: @start;
+	filter: ~"progid:DXImageTransform.Microsoft.gradient( startColorstr='@start', endColorstr='@end',GradientType=0 )";
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,@start), color-stop(100%,@end)); 
+
+	background: -webkit-linear-gradient(top,  @start 0%, @end 100%); 
+	background:    -moz-linear-gradient(top,  @start 0%, @end 100%);
+	background:     -ms-linear-gradient(top,  @start 0%, @end 100%); 
+	background:      -o-linear-gradient(top,  @start 0%, @end 100%); 
+	background:         linear-gradient(top,  @start 0%, @end 100%); 	
+}	
+
+
+.gradient_and_image( horizontal, @start, @end, @image, @repeat: no-repeat, @position: left center ) {
+	background-image:  ~"url(@{image}), @{start}";
+	filter: ~"progid:DXImageTransform.Microsoft.gradient( startColorstr='@{start}', endColorstr='@{end}',GradientType=1 )";
+	background-image:  ~"url(@{image}), -webkit-gradient(linear, left top, right top, color-stop(0%,@{start}), color-stop(100%,@{end}))"; 
+
+	background-image:  ~"url(@{image}), -webkit-linear-gradient(left,  @{start} 0%, @{end} 100%)";
+	background-image:  ~"url(@{image}),    -moz-linear-gradient(left,  @{start} 0%, @{end} 100%)";
+	background-image:  ~"url(@{image}),     -ms-linear-gradient(left,  @{start} 0%, @{end} 100%)"; 
+	background-image:  ~"url(@{image}),      -o-linear-gradient(left,  @{start} 0%, @{end} 100%)"; 
+	background-image:  ~"url(@{image}),         linear-gradient(left,  @{start} 0%, @{end} 100%)"; 
+	
+	background-repeat: @repeat;
+	background-position: @position;
+}
+
+
+.gradient_and_image( @start, @end, @image, @repeat: no-repeat, @position: left center ) {
+	background-image:  ~"url(@{image}), @{start}";
+	filter: ~"progid:DXImageTransform.Microsoft.gradient( startColorstr='@{start}', endColorstr='@{end}',GradientType=0 )";
+	background-image:  ~"url(@{image}), -webkit-gradient(linear, left top, left bottom, color-stop(0%,@{start}), color-stop(100%,@{end}))"; 
+
+	background-image:  ~"url(@{image}), -webkit-linear-gradient(top,  @{start} 0%, @{end} 100%)";
+	background-image:  ~"url(@{image}),    -moz-linear-gradient(top,  @{start} 0%, @{end} 100%)";
+	background-image:  ~"url(@{image}),     -ms-linear-gradient(top,  @{start} 0%, @{end} 100%)"; 
+	background-image:  ~"url(@{image}),      -o-linear-gradient(top,  @{start} 0%, @{end} 100%)"; 
+	background-image:  ~"url(@{image}),         linear-gradient(top,  @{start} 0%, @{end} 100%)"; 
+	
+	background-repeat: @repeat;
+	background-position: @position;
+}
+
+
+
+.gradient_three_stop( @start, @stop, @end, @location: 50% ) {	
+	background-image: @start;
+	filter: ~"progid:DXImageTransform.Microsoft.gradient( startColorstr='@{start}', endColorstr='@{end}',GradientType=0 )";
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,@start), color-stop(@location,@stop), color-stop(100%,@end)); 
+
+	background-image: -webkit-linear-gradient(top,  @start 0%, @stop @location,@end 100%);
+	background-image:    -moz-linear-gradient(top,  @start 0%, @stop @location, @end 100%); 
+	background-image:     -ms-linear-gradient(top,  @start 0%, @stop @location,@end 100%);
+	background-image:      -o-linear-gradient(top,  @start 0%, @stop @location,@end 100%);
+	background-image:         linear-gradient(top,  @start 0%, @stop @location,@end 100%);
+}
+
+
+.gradient_three_stop( horizontal, @start, @stop, @end, @location: 50% ) {	
+	background-image: @start;
+	filter: ~"progid:DXImageTransform.Microsoft.gradient( startColorstr='@{start}', endColorstr='@{end}',GradientType=1 )";
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0%,@start), color-stop(@location,@stop), color-stop(100%,@end)); 
+
+	background-image: -webkit-linear-gradient(left,  @start 0%, @stop @location, @end 100%);
+	background-image:    -moz-linear-gradient(left,  @start 0%, @stop @location, @end 100%); 
+	background-image:     -ms-linear-gradient(left,  @start 0%, @stop @location, @end 100%);
+	background-image:      -o-linear-gradient(left,  @start 0%, @stop @location, @end 100%);
+	background-image:         linear-gradient(left,  @start 0%, @stop @location, @end 100%);
+}
+
+
+.shadowed-element {
+	.box_shadow( 0px,0px,4px,0px, rgba(0,0,0,0.4) );
+	&.red {
+		.box_shadow( 0px,0px,4px,0px, @color-red);
+	}
+	&.cyan {
+		.box_shadow( 0px,0px,4px,0px, @color-red);
+	}
+	&.yellow {
+		.box_shadow( 0px,0px,4px,0px, @color-red);
+	}
+	&.black {
+		.box_shadow( 0px,0px,4px,0px, @color-red);
+	}
+	&.blue {
+		.box_shadow( 0px,0px,4px,0px, @color-red);
+	}
+	&.green {
+		.box_shadow( 0px,0px,4px,0px, @color-red);
+	}
+	&.purple {
+		.box_shadow( 0px,0px,4px,0px, @color-red);
+	}
+	&.orange {
+		.box_shadow( 0px,0px,4px,0px, @color-red);
+	}
+	&.primary {
+		.box_shadow( 0px,0px,4px,0px, @color-primary);
+	}
+}
+
+

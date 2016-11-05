@@ -1,0 +1,84 @@
+/* 
+ * Membership Information
+ */
+
+.information-table { color: #000; margin-top: 20px; margin-bottom: 25px; }
+.information-table h2 { margin-bottom: 10px; padding-bottom: 0px; }
+.information-table .info { background: none repeat scroll 0 0 transparent; display: inline-block; width: 49%; margin: 5px 0; color: #000; border: 0px; padding: 0; font-size: 14px; }
+.information-table .info .value { font-weight: bold; margin-left: 2px; text-transform: uppercase; }
+
+.information-table .direct-members { margin-top: 20px; }
+
+.downline-members { border: 1px solid #DDD; width: 100%;  }
+.downline-members th { border-bottom: 1px solid #DDD; }
+.downline-members th, .downline-members td { padding: 4px 0; margin: 0; text-align: left; }
+.downline-members .number { width: 40px; text-align: center; }
+.downline-members .level { width: 80px; text-align: center; }
+.downline-members .idnum { width: 130px; text-align: left; }
+.downline-members .name { width: 230px; text-align: left; }
+.downline-members .rank { width: 130px; text-align: left; }
+.downline-members tr.odd { background-color: rgba(238, 238, 238, 0.49);  }
+
+/* 
+ * Membership Form
+ */
+/* .membership_form_wrapper h2 { text-align: center; font-size: 23px; }
+.membership_form_wrapper h3 { text-align: left; margin-bottom: 15px; font-size: 20px; }
+.membership_form_wrapper p { margin-bottom: 0em; font-size: 16px; }
+.membership_form_wrapper label.block { display: block; }
+.membership_form_wrapper label.inlineblock { display: inline-block; width: 30%; }
+.membership_form_wrapper .terms_conditions li { font-size: 14px; }
+.membership_form_wrapper input[type=text], 
+.membership_form_wrapper input[type=password], 
+.membership_form_wrapper input[type=email] { padding: 7px; width: 250px; }
+.membership_form_wrapper select { padding: 7px 9px; }
+.membership_form_wrapper .field { margin: 10px 0; }
+.membership_form_wrapper .terms_conditions li{ font-size: 16px; } */
+
+.member_registration .select2-container { width: 50%; }
+.member_registration a.select2-choice { padding-top: 2px; padding-bottom: 2px; }
+.member_registration input.input-text, .member_registration textarea.input-text  { width: 50% !important; }
+.member_registration textarea.input-text  { height: 80px; }
+
+#membership_registration_fields #outwrite_dealer_container, #membership_registration_fields  #outwrite_membership_type { display: none; }
+#membership_registration_fields .outwrite { margin: 0px; padding: 0px; }
+#membership_registration_fields .outwrite .outwrite_title { display: inline-block; margin-right: 10px; }
+#membership_registration_fields .outwrite #outwrite_dealer_no { margin-left: 10px; }
+#membership_registration_fields .outwrite label { cursor: pointer; }
+#membership_registration_fields select { padding: 6px 5px; }
+#membership_registration_fields h4 { margin-top: 20px; font-size: 15px; }
+
+#dealer_packages_container { margin-top: 10px; display: none; }
+#dealer_packages_container label { position: relative; top: -2px; display: inline-block; margin-left: 3px; cursor: pointer; }
+#dealer_packages_container p.package { padding-bottom: 2px; display: inline-block; margin-right: 20px; }
+#dealer_packages_container p.package .view-package-products { position: relative; top: -2px; margin-left: 7px; color: rgb(18, 173, 18); text-decoration: underline; }
+
+#outwrite_membership_type { margin-bottom: 30px; }
+#outwrite_membership_type table tr { border: 1px solid silver; }
+#outwrite_membership_type table td { padding: 3px 5px; }
+#outwrite_membership_type table thead td { font-weight: bold; font-size: 14px; }
+#outwrite_membership_type table thead tr:first-child { background-color: #F7F7F7; }
+#outwrite_membership_type table td.product_name { width: 400px; }
+#outwrite_membership_type table td.product_price { width: 100px; }
+#outwrite_membership_type table td.product_quantity { width: 120px; text-align: center; }
+#outwrite_membership_type .quantity.buttons_added input[type="button"].minus,#outwrite_membership_type .quantity.buttons_added input[type="button"].plus { height: 32px; width: 32px; }
+#outwrite_membership_type .quantity.buttons_added .input-text.qty { width: 50px !important; height: 30px; }
+
+#total_product_selected_price { font-size: 16px; font-weight: bold; color: #1a5b34; }
+
+.fb-packages { padding: 20px; }
+
+#customer_details { display: none; }
+#customer_details h3, .woocommerce-shipping-fields h3 { display: none; }
+.woocommerce #payment, .woocommerce-page #payment { width: 100%; }
+#order_review table.shop_table thead { background-color: #F3FCF2; }
+
+#customer_details .hidden { display: none; }
+#order_user_referrer h3 { display: block; margin-bottom: 2px; }
+#order_user_referrer #s2id_user_referer { width: 470px; }
+#order_user_referrer a.select2-choice.select2-default, #order_user_referrer a.select2-choice { padding-top: 2px; padding-bottom: 2px; }
+
+.member_loginform ul.woocommerce-error { margin: 0px 0px 20px; }
+.member_loginform .login input[type=submit] { float: none; display: block; }
+.member_loginform .login .form-row .inline { display: inline; }
+.member_loginform .login .lost_password { float: none; display: inline; margin: 0; }

@@ -1,0 +1,201 @@
+1.3.9
+Added the excerpt_length attribute to postlists and made postslider titles links. 
+Removed the browser button from the featured item widget. Modified post types
+for latest posts widget
+
+1.3.8 
+Modified an error in the postlist shortcode
+
+1.3.7 
+Added JS to make sure nav menu doesn't hang to the right
+
+1.3.6
+Added fade effect to gallery and a border to the message shortcode
+
+1.3.5
+Fixed a Multiselect Bug
+
+1.3.4
+Corrected postslider description
+
+1.3.3
+Updated hoverlink centering
+
+1.3.2
+Added lots of options to the postslider and postlist shortcodes
+
+1.3.1
+Fixed a typo in the shortcodes
+
+1.3.0
+Added section shortcode and function exist check to title
+
+1.2.9
+Made sure when buttons and messages have border radius their outline is hidden
+
+1.2.8
+Added the footer disable 
+
+1.2.7
+Fixed a slider post type issue
+
+1.2.6 
+Added horizontal gradients
+
+1.2.5
+Modified custom fields to show up on their respected pages in auto draft format
+
+1.2.4
+Modified outerHeight to css for galleries, didn't work in some cases.
+
+1.2.3 
+Removed a console.log from the frontend.js
+
+1.2.2
+Added Nivo Slider
+
+1.2.1
+Added Syntax highlighter.js
+
+1.2.0
+Added Post Types to the latest post widget
+
+1.1.9
+Gallery height calculation issue fixed
+
+1.1.8
+Added jQuery Autocomplete to the framework
+
+1.1.7
+Modified classes to make the dropdown formatting better
+
+1.1.6
+Postlist and include shortcode added
+
+1.1.5
+Added back dropdown styling
+Made sure control panel empty dropdowns update their values
+Made sure checkboxes and radio elements save their values
+
+1.1.4
+Made sure checkboxes save their values in the widgets
+
+1.1.3
+Added the state shortcode which allows users to define content for
+logged in / guest users
+
+1.1.2
+Gallery heights are now calculated per row
+
+1.1.1
+Workaround for a LESS complier error (Winless)
+
+1.1
+Added error checking to the auto update
+
+1.033
+Modified the postslider shortcode to look nicer and added the title option
+
+1.032
+Added the checkbox and radio input styles to the frontend as well
+
+1.031
+Added the innercolumn shortcode
+
+1.030
+Added some form handling javascript
+
+1.029 
+Added dynamic form error handling
+
+1.028
+A session is now initialized automatically
+
+1.027
+Added an AJAX check to the function
+
+1.026
+Added the .example class to inputs which colors them nicely
+
+1.025
+Added jQuery Form plugin to the js library
+
+1.024
+Headings can now have the body font by using the .bodyfont class
+
+1.023
+Added opacity controls to the base.less file
+
+1.022
+Added the option to have a custom admin style in the theme
+
+1.021
+Added message types to the backend
+
+1.020 
+Added the option to create custom builders for custom fields an 
+site options from the theme
+
+1.019
+Enabled unsetting of theme options and custom fields via the themes
+
+1.018
+Added custom style to buttons
+
+1.017
+Fixed a quote escape problem in button gradients for IE 
+
+1.016 
+Replaced the 'page' template name with 'default' since that is the correct one.
+
+1.015
+Added secondary colors and added easy default color settings via the theme
+
+1.014 
+Fixed a sidebar positioning bug
+
+1.013
+Fixed a text center bugs in columns
+
+1.012
+Fixed a multiselect page order bug
+
+1.011
+Added a latest post slider shortcode
+
+1.010
+Modified framework so new post types can dynamically be 
+added while retaining custom field functionality. Added 
+jQuery Scrollto
+
+1.09
+Fixed a bug with nonce checking
+
+1.08
+Added built in support for the slide post type
+
+1.07
+Added back colorpicker and colorbox images into the images folder
+
+1.06
+Fixed a bug in the sidebar position function
+
+1.05 
+Separated out sidebars and menus into the theme to make sure they can
+be defined on a theme level
+
+1.04
+Top level option sections can now be added via the theme
+
+1.03
+Separated page and post options
+
+1.02
+Modified options in custom field and theme setting arrays to be associative 
+so that options can unset through the theme, not just new ones set. 
+
+1.01
+Added Social tab with Facebook and Twitter options
+
+1.0 
+Initial framework version created

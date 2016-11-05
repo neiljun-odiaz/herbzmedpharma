@@ -1,0 +1,185 @@
+/* 
+
+Title:
+	Responsive Layout
+
+Package: 
+	Red Factory Themes
+	
+Author: 
+	Daniel Pataki 
+	
+Description:
+	These styles provide the basic responsiveness of this theme. Many details can be found
+	in the main stylesheet on an element to element basis. 
+
+*/
+
+/* Small Screens and iPad vertical orientation */
+
+
+@media screen and ( max-width : 870px ) {
+
+	.row, body, .container {
+		width: 100%;
+		min-width: 0;
+		margin-left: 0px;
+		margin-right: 0px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	
+	.row > .onecol, .row > .twocol, .row > .threecol, .row > .fourcol, .row > .fivecol, .row > .sixcol, .row > .sevencol, .row > .eightcol, .row > .ninecol, .row > .tencol, .row > .elevencol, .row > .twelvecol, #site-content {
+		width: auto;
+		float: none;
+		margin-left: 0px;
+		margin-right: 0px;
+		padding-left: 22px;
+		padding-right: 22px;
+	}
+	
+	.section {
+		.row > .onecol, .row > .twocol, .row > .threecol, .row > .fourcol, .row > .fivecol, .row > .sixcol, .row > .sevencol, .row > .eightcol, .row > .ninecol, .row > .tencol, .row > .elevencol, .row > .twelvecol, #site-content {
+			padding-left:0px;
+			padding-right:0px;
+		}
+	}
+	
+
+
+	#site-sidebar {
+		display:none;
+	}	
+
+	#site-content {
+		width:100% !important;
+		margin:0px !important;
+	}
+	
+	#site-container > .section > .border {
+		border-left:0px;
+		border-right:0px;
+	}
+	
+	#site-container > .section {
+		margin-bottom:0px;
+	}
+	
+	#site-footer {
+		text-align:center;
+		#footer-text {
+			float:none;
+			margin:0 0 22px 0;
+		}
+		#footer-social {
+			float:none;
+			text-align:center;
+		}
+	}
+	
+	#site-header {
+		.fourcol, .eightcol {
+			display:block;
+			width:100%;
+		}
+		#header-logo {
+			text-align:center;
+			margin:0 0 22px 0;
+		}
+		#header-nav {
+			text-align: center;
+			position: static;
+			margin-left:0px;
+			li {
+				margin:0px 11px !important;
+				a {
+					white-space: nowrap
+				}
+			}
+			.triangle-container {
+				display:none;
+			}
+			.current_page_item {
+				a {
+					font-weight:700;
+					color:#222;
+				}
+			}
+		}
+	}
+	
+	#site-content.right, #site-content.left {
+		.pad-side {
+			padding:0 44px !important;
+		}
+	}
+
+
+}
+
+/* iPhone horizontal orientation */
+@media screen and ( max-width : 480px ) {
+		
+	#comments {
+		.threecol {
+			display:none;
+		}
+		.ninecol {
+			width:100%;
+		}
+	}
+	
+	.gallery-filter {
+		display:none;
+	}
+	
+	.inner-row  .onecol, .inner-row  .twocol, .inner-row  .threecol, .inner-row  .fourcol, .inner-row  .fivecol, .inner-row  .sixcol, .inner-row  .sevencol, .inner-row  .eightcol, .inner-row  .ninecol, .inner-row  .tencol, .inner-row  .elevencol, .inner-row  .twelvecol, #site-content {
+		width: auto;
+		float: none;
+		margin-left: 0px;
+		margin-right: 0px;
+		padding-left: 22px;
+		padding-right: 22px;
+	}	
+
+}
+
+/* iPhone vertical orientation */
+@media  screen and (max-width : 320px) {
+
+	#comments {
+		.children {
+			.comment-main {
+				margin:0px !important;
+			}
+		}
+	}
+	
+}
+
+
+
+@media screen and ( max-width : 970px ) {
+	.avatar {
+		width: 75px !important;
+		height:75px !important;
+		.radius(150px) !important;
+	}
+}
+
+
+@media screen and ( max-width : 870px ) {
+	.avatar {
+		width: 100px !important;
+		height:100px !important;
+		.radius(200px) !important;
+	}
+}
+
+@media screen and ( max-width : 600px ) {
+	.avatar {
+		width: 75px !important;
+		height:75px !important;
+		.radius(150px) !important;
+	}
+}

@@ -1,0 +1,174 @@
+/* 
+
+Title:
+	1140px Grid Main Styles
+
+Package: 
+	The 1140px Grid V2
+	
+Author: 
+	Andy Taylor 
+	
+Description:
+	The 1140 grid fits perfectly into a 1280 monitor. On smaller monitors it becomes fluid and adapts to the width of the browser.
+	
+	Beyond a certain point it uses media queries to serve up a mobile version, which essentially stacks all the columns on top of each other so the flow of information still makes sense.
+	
+	Scrap 1024! Design once at 1140 for 1280, and with very little extra work, it will adapt itself to work on just about any monitor, even mobile.
+	
+Links: 
+	http://cssgrid.net
+	http://www.twitter.com/andytlr 
+	http://www.andytlr.com   
+
+
+*/
+
+.container {
+	padding-left: 44px;
+	padding-right: 44px;
+}
+
+.row {
+	width: 100%;
+	max-width: 1140px;
+	min-width: 0px;
+	margin: 0 auto;
+}
+
+.row:after {
+	content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;	
+}
+
+.inner-row {
+	margin: 0 auto;
+	overflow: hidden;
+	zoom: 1;
+}
+
+.onecol, .twocol, .threecol, .fourcol, .fivecol, .sixcol, .sevencol, .eightcol, .ninecol, .tencol, .elevencol {
+	margin-right: 3.8%;
+	float: left;
+	min-height: 1px;
+}
+
+.row .onecol {
+	width: 4.85%;
+}
+
+.row .twocol {
+	width: 13.45%;
+}
+
+.row .threecol {
+	width: 22.05%;
+}
+
+.row .fourcol {
+	width: 30.75%;
+}
+
+.row .fivecol {
+	width: 39.45%;
+}
+
+.row .sixcol {
+	width: 48%;
+}
+
+.row .sevencol {
+	width: 56.75%;
+}
+
+.row .eightcol {
+	width: 65.4%;
+}
+
+.row .ninecol {
+	width: 74.05%;
+}
+
+.row .tencol {
+	width: 82.7%;
+}
+
+.row .elevencol {
+	width: 91.35%;
+}
+
+.row .twelvecol {
+	width: 100%;
+	float: left;
+}
+
+
+.nospacing {
+
+	.onecol, .twocol, .threecol, .fourcol, .fivecol, .sixcol, .sevencol, .eightcol, .ninecol, .tencol, .elevencol {
+		margin:0px;
+	}
+	
+	.onecol {
+		width: 8.34%;
+	}
+	
+	.twocol {
+		width: 16.67%;
+	}
+	
+	.threecol {
+		width: 25%;
+	}
+	
+	.fourcol {
+		width: 33.34%;
+	}
+	
+	.fivecol {
+		width: 41.67%;
+	}
+	
+	.sixcol {
+		width: 50%;
+	}
+	
+	.sevencol {
+		width: 58.34%;
+	}
+	
+	.eightcol {
+		width: 66.67%;
+	}
+	
+	.ninecol {
+		width: 75%;
+	}
+	
+	.tencol {
+		width: 83.34%;
+	}
+	
+	.elevencol {
+		width: 91.67%;
+	}
+	
+	.twelvecol {
+		width: 100%;
+		float: left;
+	}
+
+}
+
+
+.last {
+	margin-right: 0px;
+}
+
+img, embed, object {
+	max-width: 100%;
+	height: auto;
+}

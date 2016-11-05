@@ -1,0 +1,7 @@
+** Version 1.0.1 (June 24, 2013) **
+	- Added catalog option
+	- Added "Sale" icons to products displayed on the homepage
+	- Added 258 retina ready icons
+
+** Version 1.0.0 (June 18, 2013) **
+   	- Initial release

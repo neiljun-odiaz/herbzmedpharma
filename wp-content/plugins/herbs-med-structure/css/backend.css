@@ -1,0 +1,42 @@
+.wp-list-table th.column-ID {
+	width: 5%;
+	margin: 0;
+	padding: 8px 10px;
+}
+.wp-list-table td.column-ID {
+	width: 5%;
+	margin: 0;
+	padding: 8px 18px;
+	text-align: left;
+}
+.widefat .column-order_title { width: 150px !important; }
+.widefat .column-order_total { width: 100px !important; }
+.widefat .column-custom_order_action { width: 100px; }
+/* .widefat td.column-custom_order_action { text-align: center; } */
+.widefat .column-order_branch { width: 90px; }
+.widefat .column-order_code { width: 80px; }
+
+.hmp-form-table { width: 99%; border: 1px solid #DDD; }
+.hmp-form-table thead th, .hmp-form-table tbody td { padding: 9px 7px; font-weight: 700; vertical-align: middle; margin-bottom: 9px; line-height: 1.3; font-size: 14px; color: #555; text-align: left; font-family: 'Open Sans', sans-serif; }
+.hmp-form-table thead th { border-bottom: 1px solid #DDD; color: #333; }
+.hmp-form-table tbody td .button { margin: 0px 1px; font-weight: normal; }
+
+.type-list { width: 100%; }
+.branch-location-list { width: 50%; }
+
+.add-new-membership-type-form { border: 1px solid #DDD; width: 48%; padding: 10px; }
+.add-new-type th, .add-new-type td { margin-bottom: 0px; padding: 5px 0px; }
+.add-new-type td.requirements label { display: block; }
+
+.add-new-branch-form {  border: 1px solid #DDD; width: 48%; padding: 10px;  }
+.add-new-branch th, .add-new-branch td { margin-bottom: 0px; padding: 8px 10px; }
+
+.custom_order_action .button { margin: 0px 6px 0px 0px; position: relative; top: 0px; font-size: 16px; }
+
+#filter_by_code_chosen { width: 200px !important; }
+#filter_by_branch_chosen { width: 180px !important; }
+
+#posts-filter #dropdown_customers_chzn, #posts-filter #dropdown_product_subtype {
+    display:none;
+}
+#posts-filter #s2id_filter_by_branch, #posts-filter #s2id_filter_by_code { margin: 0px 4px 2px 1px; }

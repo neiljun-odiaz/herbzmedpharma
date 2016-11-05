@@ -1,0 +1,102 @@
+/*-------------------------------------------------------------------------
+
+   Plugin Name: Easy Testimonial Manager
+   Description:  Easy Testimonial Manager Plugin allows you to easily display testimonials along with Photo, Name, Company, URL and social profiles.
+   Version: 1.1.0
+   Plugin URI: http://www.jwthemes.com
+   Author: JW Themes
+   Author URI: http://www.jwthemes.com
+   License: Under GPL2
+
+--------------------------------------------------------------------------*/
+a,a:hover,a:focus{text-decoration:none; outline:0;}
+
+/* Style for Admin */
+.jw_admin_wrap table tr th { color:black !important;}
+.jw_admin_wrap{background:#fff; padding:15px; border:1px solid #ddd; border-radius:4px; margin-top:25px; color:#3D566E;}
+.jw_admin_wrap h2{color:#3D566E; border-bottom:1px solid #e5e5e5;}
+.jw_admin_wrap h3{color:#3D566E;line-height:normal;}
+.jw_admin_wrap h3 code{padding:5px 20px; border-radius:3px; font-size:14px; font-weight:300;}
+.jw_admin_wrap table{border-radius:4px; margin-top:15px; overflow:hidden; box-shadow:none; border-bottom:0;}
+.jw_admin_wrap table tr:nth-child(1){background:#19B698;}
+.jw_admin_wrap table tr th{ font-weight:bold; padding-top:14px; padding-bottom:12px;}
+.jw_admin_wrap table tr td{border-bottom:1px solid #ddd; padding-top:18px; padding-bottom:7px;}
+.jw_admin_wrap table tr th:last-child,
+.jw_admin_wrap table tr td:last-child{text-align:center;}
+.jw_admin_wrap table tr:last-child{border-bottom:0;}
+
+.remove_easy_testimonial_manager_name button,
+.easy_testimonial_manager_details_delete{border:1px solid #fb948b !important; background:#fff !important; color:#3D566E; border-radius:3px; padding:4px 10px; cursor:pointer;}
+.remove_easy_testimonial_manager_name button:hover,
+.easy_testimonial_manager_details_delete:hover{background:#e74c3c !important; color:#fff !important;  border-color:#e74c3c !important;box-shadow:none !important; }
+
+.jw_admin_wrap .primary-button,
+.jw_admin_wrap input[type="submit"],
+.jw_admin_wrap .easy_testimonial_manager_add_image{background:#19B698; border:1px solid #19B698; padding:3px 16px; height:36px; color:#fff; box-shadow:none;}
+.jw_admin_wrap .primary-button:hover,
+.jw_admin_wrap .primary-button:focus,
+.jw_admin_wrap input[type="submit"]:hover,
+.jw_admin_wrap input[type="submit"]:focus,
+.jw_admin_wrap .easy_testimonial_manager_add_image:hover,
+.jw_admin_wrap .easy_testimonial_manager_add_image:focus{background:#0d9d81; color:#fff; border-color:#0d9d81; box-shadow:none;}
+
+.easy_testimonial_manager_add_image{margin-top:20px !important;}
+
+/* Style for Add new Slider */
+.jw_create_new_slider table{text-align:left; margin-bottom:20px; padding:20px 10px;  border-bottom:1px solid #ddd;}
+.jw_create_new_slider table tr td,
+.easy_testimonial_manager_add_details table tr td{border-bottom:0;}
+.jw_create_new_slider table tr,
+.jw_create_new_slider table tr:nth-child(1),
+.easy_testimonial_manager_add_details table tr:nth-child(1){background:none;}
+.jw_create_new_slider table tr th,
+.easy_testimonial_manager_add_details table tr th{padding-top:16px; padding-bottom:16px; border-bottom:0;}
+.jw_create_new_slider table tr td,
+.easy_testimonial_manager_add_details table tr td{padding-top:5px; padding-bottom:5px;}
+
+.jw_create_new_slider table tr th,
+.easy_testimonial_manager_add_details table tr th,
+.easy_testimonial_manager_options tr th{color:#3D566E !important}
+.jw_create_new_slider input[type="text"],
+.easy_testimonial_manager_add_details input[type="text"],
+.easy_testimonial_manager_add_details textarea,
+.easy_testimonial_manager_add_details input[type="file"]{border-radius:4px; padding:8px 15px; float:left; width:50%; box-shadow:none;}
+.easy_testimonial_manager_add_details input[type="file"]{border:1px solid #ddd;}
+
+.jw_create_new_slider input[type="text"]:focus,
+.easy_testimonial_manager_add_details input[type="text"]:focus,
+.easy_testimonial_manager_add_details textarea:focus{background:#fff;}.
+
+
+/* Add new Details */
+.easy_testimonial_manager_add_details table{padding:20px 10px; border-bottom:1px solid #ddd !important; }
+.easy_testimonial_manager_add_details table tr:first-child td{padding-top:15px;}
+.easy_testimonial_manager_add_details table tr:last-child td,
+.easy_testimonial_manager_add_details table tr:last-child th{border-bottom:1px solid #ddd; padding-bottom:15px;}
+.easy_testimonial_manager_add_details table tr th{color:#3D566E}
+.easy_testimonial_manager_add_details table tr th{padding-top:16px; padding-bottom:16px; border-bottom:0;}
+.easy_testimonial_manager_add_details img{width:auto; height:50px; padding:4px; border:1px solid #ddd; background:#fff; border-radius:3px;}
+
+
+/* Image Listing page */
+table.easy_testimonial_manager_list img{width:auto; height:50px;}
+
+.easy_testimonial_manager_details_edit{background:#fff !important; border:1px solid #19B698 !important; margin-right:5px !important;}
+.easy_testimonial_manager_details_edit:hover{background:#19B698 !important; color:#fff !important; box-shadow:none;}
+
+/* Style for Options */
+.easy_testimonial_manager_options tr{border-bottom:1px solid #ddd;}
+.easy_testimonial_manager_options tr td:nth-child(2){text-align:left !important;}
+.easy_testimonial_manager_options input[type="text"]{box-shadow:none; padding:2px inherit; width:70px; border-radius:3px; color:#3D566E}
+.easy_testimonial_manager_options input[type="radio"]:last-child{margin-left:25px;}
+
+
+/* Style for social profile */
+.social_dropdown{text-align:left !important;}
+.social_dropdown select{border:1px solid #ddd; padding:8px 5px; height:40px; box-shadow:none; width:220px;}
+.jw_easy_testimonial_add input[type="checkbox"]{float:left; margin-left:15px; margin-top:12px;}
+
+.jw_easy_testimonial_settings .form_caption{width:200px; color:#3D566E; font-size:16px; display:inline-block;}
+.jw_easy_testimonial_settings input[type="text"]{border:1px solid #ddd; border-radius:4px; box-shadow:none; padding:6px 10px; color:#3D566E; margin-top:15px; width:40%;}
+
+.shortcode_easy_testimonial{font-size:20px; padding:20px; border-radius:4px;}

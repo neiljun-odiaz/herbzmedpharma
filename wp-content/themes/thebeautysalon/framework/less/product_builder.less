@@ -1,0 +1,107 @@
+.page-creator {
+	margin:44px 0 0 0;
+}
+
+.product_categories {
+	min-height:120px;
+}
+	
+.product_category {
+	h2 {
+		font-weight:500;
+		text-transform: uppercase;
+		font-size:15px;
+		margin:0px;
+		padding:0px;
+		text-align: center;
+		background: #e9e9e9;
+		border:#ddd solid 1px;
+		margin:0 0 11px 0;
+	}
+	padding:11px;
+	background: #f1f1f1;
+	border:#ddd solid 1px;
+	margin:0 0 22px 0;
+}
+
+.product {
+	margin:0 0 3px 0;
+	img {
+		width:100%;
+		height:auto;
+		border:1px solid #fff;
+		outline:1px solid #ddd;
+	}
+	h3 {
+		font-size:12px;
+		font-weight: 400;
+		margin:0px;
+		padding:0px;
+		line-height:28px;
+	}
+}
+
+.placeholder {
+	min-height:120px;
+	width:100%;
+	display:block;
+	background: #eee;
+	border:#ccc dashed 1px;
+	margin:0 0 22px 0;
+}
+
+.page {
+	position:relative;
+	min-height:400px;
+	margin:0 0 22px 0;
+	background: #fafafa;
+	border:1px solid #ddd;
+	.controls {
+		background: #555;
+		color:#fff;
+		padding:3px 22px;
+		.page-number {
+			display:inline-block;
+		}
+		a {
+			color:#fff;
+			float:right;
+			text-decoration: none;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+	.page_left {
+		min-height:400px;
+		height:100%;
+		float:left;
+		width:50%;
+		outline-right:1px solid #f1f1f1;
+		background: #fafafa;
+		background: -moz-linear-gradient(left,  #fafafa 87%, #ffffff 100%);
+		background: -webkit-gradient(linear, left top, right top, color-stop(87%,#fafafa), color-stop(100%,#ffffff));
+		background: -webkit-linear-gradient(left,  #fafafa 87%,#ffffff 100%);
+		background: -o-linear-gradient(left,  #fafafa 87%,#ffffff 100%);
+		background: -ms-linear-gradient(left,  #fafafa 87%,#ffffff 100%);
+		background: linear-gradient(to right,  #fafafa 87%,#ffffff 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#ffffff',GradientType=1 );
+
+	}
+	.page_right {
+		height:100%;
+		min-height:400px;
+		float:right;
+		width:50%;
+		background: -moz-linear-gradient(right,  #fafafa 87%, #ffffff 100%);
+		background: -webkit-gradient(linear, right top, left top, color-stop(87%,#fafafa), color-stop(100%,#ffffff));
+		background: -webkit-linear-gradient(right,  #fafafa 87%,#ffffff 100%);
+		background: -o-linear-gradient(right,  #fafafa 87%,#ffffff 100%);
+		background: -ms-linear-gradient(right,  #fafafa 87%,#ffffff 100%);
+		background: linear-gradient(to left,  #fafafa 87%,#ffffff 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#ffffff',GradientType=1 );
+	}
+	.product_categories {
+		padding:22px;
+	}
+}
